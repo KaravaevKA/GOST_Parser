@@ -1,0 +1,2 @@
+cadquery>=2.1
+json

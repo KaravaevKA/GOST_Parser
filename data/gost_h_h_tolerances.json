@@ -1,0 +1,7402 @@
+[
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 1,
+    "upper_deviation_mkm": 0.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 2,
+    "upper_deviation_mkm": 1.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 3,
+    "upper_deviation_mkm": 2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 4,
+    "upper_deviation_mkm": 3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 5,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 6,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 7,
+    "upper_deviation_mkm": 10,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -10
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 8,
+    "upper_deviation_mkm": 14,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -14
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 9,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 10,
+    "upper_deviation_mkm": 40,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -40
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 11,
+    "upper_deviation_mkm": 60,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -60
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 12,
+    "upper_deviation_mkm": 0.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 13,
+    "upper_deviation_mkm": 0.14,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.14
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 14,
+    "upper_deviation_mkm": 0.25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 15,
+    "upper_deviation_mkm": 0.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 16,
+    "upper_deviation_mkm": 0.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 17,
+    "upper_deviation_mkm": 1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 18,
+    "upper_deviation_mkm": 1.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 0,
+    "nominal_to": 3,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 1,
+    "upper_deviation_mkm": 1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 2,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 3,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 4,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 5,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 6,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 7,
+    "upper_deviation_mkm": 12,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -12
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 8,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 9,
+    "upper_deviation_mkm": 30,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -30
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 10,
+    "upper_deviation_mkm": 48,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -48
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 11,
+    "upper_deviation_mkm": 75,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -75
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 12,
+    "upper_deviation_mkm": 0.12,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.12
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 13,
+    "upper_deviation_mkm": 0.18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 14,
+    "upper_deviation_mkm": 0.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 15,
+    "upper_deviation_mkm": 0.48,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.48
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 16,
+    "upper_deviation_mkm": 0.75,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.75
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 17,
+    "upper_deviation_mkm": 1.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 18,
+    "upper_deviation_mkm": 1.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 3,
+    "nominal_to": 6,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 1,
+    "upper_deviation_mkm": 1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 2,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 3,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 4,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 5,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 6,
+    "upper_deviation_mkm": 9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 7,
+    "upper_deviation_mkm": 15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 8,
+    "upper_deviation_mkm": 22,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -22
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 9,
+    "upper_deviation_mkm": 36,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -36
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 10,
+    "upper_deviation_mkm": 58,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -58
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 11,
+    "upper_deviation_mkm": 90,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -90
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 12,
+    "upper_deviation_mkm": 0.15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 13,
+    "upper_deviation_mkm": 0.22,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.22
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 14,
+    "upper_deviation_mkm": 0.36,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.36
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 15,
+    "upper_deviation_mkm": 0.58,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.58
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 16,
+    "upper_deviation_mkm": 0.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 17,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 18,
+    "upper_deviation_mkm": 2.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 6,
+    "nominal_to": 10,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 1,
+    "upper_deviation_mkm": 1.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 2,
+    "upper_deviation_mkm": 2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 3,
+    "upper_deviation_mkm": 3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 4,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 5,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 6,
+    "upper_deviation_mkm": 11,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -11
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 7,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 8,
+    "upper_deviation_mkm": 27,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -27
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 9,
+    "upper_deviation_mkm": 43,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -43
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 10,
+    "upper_deviation_mkm": 70,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -70
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 11,
+    "upper_deviation_mkm": 110,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -110
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 12,
+    "upper_deviation_mkm": 0.18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 13,
+    "upper_deviation_mkm": 0.27,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.27
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 14,
+    "upper_deviation_mkm": 0.43,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.43
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 15,
+    "upper_deviation_mkm": 0.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 16,
+    "upper_deviation_mkm": 1.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 17,
+    "upper_deviation_mkm": 1.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 18,
+    "upper_deviation_mkm": 2.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 10,
+    "nominal_to": 18,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 1,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 2,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 3,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 4,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 5,
+    "upper_deviation_mkm": 9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 6,
+    "upper_deviation_mkm": 13,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -13
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 7,
+    "upper_deviation_mkm": 21,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -21
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 8,
+    "upper_deviation_mkm": 33,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -33
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 9,
+    "upper_deviation_mkm": 52,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -52
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 10,
+    "upper_deviation_mkm": 84,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -84
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 11,
+    "upper_deviation_mkm": 130,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -130
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 12,
+    "upper_deviation_mkm": 0.21,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.21
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 13,
+    "upper_deviation_mkm": 0.33,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.33
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 14,
+    "upper_deviation_mkm": 0.52,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.52
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 15,
+    "upper_deviation_mkm": 0.84,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.84
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 16,
+    "upper_deviation_mkm": 1.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 17,
+    "upper_deviation_mkm": 2.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 18,
+    "upper_deviation_mkm": 3.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 18,
+    "nominal_to": 30,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 1,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 2,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 3,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 4,
+    "upper_deviation_mkm": 7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 5,
+    "upper_deviation_mkm": 11,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -11
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 6,
+    "upper_deviation_mkm": 16,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -16
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 7,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 8,
+    "upper_deviation_mkm": 39,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -39
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 9,
+    "upper_deviation_mkm": 62,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -62
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 10,
+    "upper_deviation_mkm": 100,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -100
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 11,
+    "upper_deviation_mkm": 160,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -160
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 12,
+    "upper_deviation_mkm": 0.25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 13,
+    "upper_deviation_mkm": 0.39,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.39
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 14,
+    "upper_deviation_mkm": 0.62,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.62
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 15,
+    "upper_deviation_mkm": 1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 16,
+    "upper_deviation_mkm": 1.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 17,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 18,
+    "upper_deviation_mkm": 3.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 30,
+    "nominal_to": 50,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 1,
+    "upper_deviation_mkm": 2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 2,
+    "upper_deviation_mkm": 3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 3,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 4,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 5,
+    "upper_deviation_mkm": 13,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -13
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 6,
+    "upper_deviation_mkm": 19,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -19
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 7,
+    "upper_deviation_mkm": 30,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -30
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 8,
+    "upper_deviation_mkm": 46,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -46
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 9,
+    "upper_deviation_mkm": 74,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -74
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 10,
+    "upper_deviation_mkm": 120,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -120
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 11,
+    "upper_deviation_mkm": 190,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -190
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 12,
+    "upper_deviation_mkm": 0.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 13,
+    "upper_deviation_mkm": 0.46,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.46
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 14,
+    "upper_deviation_mkm": 0.74,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.74
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 15,
+    "upper_deviation_mkm": 1.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 16,
+    "upper_deviation_mkm": 1.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 17,
+    "upper_deviation_mkm": 3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 18,
+    "upper_deviation_mkm": 4.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 50,
+    "nominal_to": 80,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 1,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 2,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 3,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 4,
+    "upper_deviation_mkm": 10,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -10
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 5,
+    "upper_deviation_mkm": 15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 6,
+    "upper_deviation_mkm": 22,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -22
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 7,
+    "upper_deviation_mkm": 35,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -35
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 8,
+    "upper_deviation_mkm": 54,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -54
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 9,
+    "upper_deviation_mkm": 87,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -87
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 10,
+    "upper_deviation_mkm": 140,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -140
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 11,
+    "upper_deviation_mkm": 220,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -220
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 12,
+    "upper_deviation_mkm": 0.35,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.35
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 13,
+    "upper_deviation_mkm": 0.54,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.54
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 14,
+    "upper_deviation_mkm": 0.87,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.87
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 15,
+    "upper_deviation_mkm": 1.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 16,
+    "upper_deviation_mkm": 2.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 17,
+    "upper_deviation_mkm": 3.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 18,
+    "upper_deviation_mkm": 5.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 80,
+    "nominal_to": 120,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 1,
+    "upper_deviation_mkm": 3.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 2,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 3,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 4,
+    "upper_deviation_mkm": 12,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -12
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 5,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 6,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 7,
+    "upper_deviation_mkm": 40,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -40
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 8,
+    "upper_deviation_mkm": 63,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -63
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 9,
+    "upper_deviation_mkm": 100,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -100
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 10,
+    "upper_deviation_mkm": 160,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -160
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 11,
+    "upper_deviation_mkm": 250,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -250
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 12,
+    "upper_deviation_mkm": 0.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 13,
+    "upper_deviation_mkm": 0.63,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.63
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 14,
+    "upper_deviation_mkm": 1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 15,
+    "upper_deviation_mkm": 1.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 16,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 17,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 18,
+    "upper_deviation_mkm": 6.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 120,
+    "nominal_to": 180,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 1,
+    "upper_deviation_mkm": 4.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 2,
+    "upper_deviation_mkm": 7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 3,
+    "upper_deviation_mkm": 10,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -10
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 4,
+    "upper_deviation_mkm": 14,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -14
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 5,
+    "upper_deviation_mkm": 20,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -20
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 6,
+    "upper_deviation_mkm": 29,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -29
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 7,
+    "upper_deviation_mkm": 46,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -46
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 8,
+    "upper_deviation_mkm": 72,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -72
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 9,
+    "upper_deviation_mkm": 115,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -115
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 10,
+    "upper_deviation_mkm": 185,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -185
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 11,
+    "upper_deviation_mkm": 290,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -290
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 12,
+    "upper_deviation_mkm": 0.46,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.46
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 13,
+    "upper_deviation_mkm": 0.72,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.72
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 14,
+    "upper_deviation_mkm": 1.15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 15,
+    "upper_deviation_mkm": 1.85,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.85
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 16,
+    "upper_deviation_mkm": 2.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 17,
+    "upper_deviation_mkm": 4.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 18,
+    "upper_deviation_mkm": 7.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 180,
+    "nominal_to": 250,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 1,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 2,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 3,
+    "upper_deviation_mkm": 12,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -12
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 4,
+    "upper_deviation_mkm": 16,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -16
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 5,
+    "upper_deviation_mkm": 23,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -23
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 6,
+    "upper_deviation_mkm": 32,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -32
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 7,
+    "upper_deviation_mkm": 52,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -52
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 8,
+    "upper_deviation_mkm": 81,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -81
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 9,
+    "upper_deviation_mkm": 130,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -130
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 10,
+    "upper_deviation_mkm": 210,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -210
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 11,
+    "upper_deviation_mkm": 320,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -320
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 12,
+    "upper_deviation_mkm": 0.52,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.52
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 13,
+    "upper_deviation_mkm": 0.81,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.81
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 14,
+    "upper_deviation_mkm": 1.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 15,
+    "upper_deviation_mkm": 2.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 16,
+    "upper_deviation_mkm": 3.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 17,
+    "upper_deviation_mkm": 5.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 18,
+    "upper_deviation_mkm": 8.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 250,
+    "nominal_to": 315,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 1,
+    "upper_deviation_mkm": 7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 2,
+    "upper_deviation_mkm": 9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 3,
+    "upper_deviation_mkm": 13,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -13
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 4,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 5,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 6,
+    "upper_deviation_mkm": 36,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -36
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 7,
+    "upper_deviation_mkm": 57,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -57
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 8,
+    "upper_deviation_mkm": 89,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -89
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 9,
+    "upper_deviation_mkm": 140,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -140
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 10,
+    "upper_deviation_mkm": 230,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -230
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 11,
+    "upper_deviation_mkm": 360,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -360
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 12,
+    "upper_deviation_mkm": 0.57,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.57
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 13,
+    "upper_deviation_mkm": 0.89,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.89
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 14,
+    "upper_deviation_mkm": 1.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 15,
+    "upper_deviation_mkm": 2.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 16,
+    "upper_deviation_mkm": 3.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 17,
+    "upper_deviation_mkm": 5.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 18,
+    "upper_deviation_mkm": 8.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 315,
+    "nominal_to": 400,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 1,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 1,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 2,
+    "upper_deviation_mkm": 10,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -10
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 3,
+    "upper_deviation_mkm": 15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 4,
+    "upper_deviation_mkm": 20,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -20
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 5,
+    "upper_deviation_mkm": 27,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -27
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 6,
+    "upper_deviation_mkm": 40,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -40
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 7,
+    "upper_deviation_mkm": 63,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -63
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 8,
+    "upper_deviation_mkm": 97,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -97
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 9,
+    "upper_deviation_mkm": 155,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -155
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 10,
+    "upper_deviation_mkm": 250,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -250
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 11,
+    "upper_deviation_mkm": 400,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -400
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 12,
+    "upper_deviation_mkm": 0.63,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.63
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 13,
+    "upper_deviation_mkm": 0.97,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.97
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 14,
+    "upper_deviation_mkm": 1.55,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.55
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 15,
+    "upper_deviation_mkm": 2.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 16,
+    "upper_deviation_mkm": 4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 17,
+    "upper_deviation_mkm": 6.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 18,
+    "upper_deviation_mkm": 9.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 400,
+    "nominal_to": 500,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 2,
+    "upper_deviation_mkm": 11,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -11
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 3,
+    "upper_deviation_mkm": 16,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -16
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 4,
+    "upper_deviation_mkm": 22,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -22
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 5,
+    "upper_deviation_mkm": 32,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -32
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 6,
+    "upper_deviation_mkm": 44,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -44
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 7,
+    "upper_deviation_mkm": 70,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -70
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 8,
+    "upper_deviation_mkm": 110,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -110
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 9,
+    "upper_deviation_mkm": 175,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -175
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 10,
+    "upper_deviation_mkm": 280,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -280
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 11,
+    "upper_deviation_mkm": 440,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -440
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 12,
+    "upper_deviation_mkm": 0.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 13,
+    "upper_deviation_mkm": 1.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 14,
+    "upper_deviation_mkm": 1.75,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.75
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 15,
+    "upper_deviation_mkm": 2.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 16,
+    "upper_deviation_mkm": 4.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 17,
+    "upper_deviation_mkm": 7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 18,
+    "upper_deviation_mkm": 11,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 500,
+    "nominal_to": 630,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -11
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 2,
+    "upper_deviation_mkm": 13,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -13
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 3,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 4,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 5,
+    "upper_deviation_mkm": 36,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -36
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 6,
+    "upper_deviation_mkm": 50,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -50
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 7,
+    "upper_deviation_mkm": 80,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -80
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 8,
+    "upper_deviation_mkm": 125,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -125
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 9,
+    "upper_deviation_mkm": 200,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -200
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 10,
+    "upper_deviation_mkm": 320,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -320
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 11,
+    "upper_deviation_mkm": 500,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -500
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 12,
+    "upper_deviation_mkm": 0.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 13,
+    "upper_deviation_mkm": 1.25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 14,
+    "upper_deviation_mkm": 2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 15,
+    "upper_deviation_mkm": 3.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 16,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 17,
+    "upper_deviation_mkm": 8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 18,
+    "upper_deviation_mkm": 12.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 630,
+    "nominal_to": 800,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -12.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 2,
+    "upper_deviation_mkm": 15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 3,
+    "upper_deviation_mkm": 21,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -21
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 4,
+    "upper_deviation_mkm": 28,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -28
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 5,
+    "upper_deviation_mkm": 40,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -40
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 6,
+    "upper_deviation_mkm": 56,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -56
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 7,
+    "upper_deviation_mkm": 90,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -90
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 8,
+    "upper_deviation_mkm": 140,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -140
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 9,
+    "upper_deviation_mkm": 230,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -230
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 10,
+    "upper_deviation_mkm": 360,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -360
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 11,
+    "upper_deviation_mkm": 560,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -560
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 12,
+    "upper_deviation_mkm": 0.9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -0.9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 13,
+    "upper_deviation_mkm": 1.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 14,
+    "upper_deviation_mkm": 2.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 15,
+    "upper_deviation_mkm": 3.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 16,
+    "upper_deviation_mkm": 5.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 17,
+    "upper_deviation_mkm": 9,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 18,
+    "upper_deviation_mkm": 14,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 800,
+    "nominal_to": 1000,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -14
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 2,
+    "upper_deviation_mkm": 18,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -18
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 3,
+    "upper_deviation_mkm": 24,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -24
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 4,
+    "upper_deviation_mkm": 33,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -33
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 5,
+    "upper_deviation_mkm": 47,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -47
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 6,
+    "upper_deviation_mkm": 66,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -66
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 7,
+    "upper_deviation_mkm": 105,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -105
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 8,
+    "upper_deviation_mkm": 165,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -165
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 9,
+    "upper_deviation_mkm": 260,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -260
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 10,
+    "upper_deviation_mkm": 420,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -420
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 11,
+    "upper_deviation_mkm": 660,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -660
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 12,
+    "upper_deviation_mkm": 1.05,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.05
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 13,
+    "upper_deviation_mkm": 1.65,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.65
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 14,
+    "upper_deviation_mkm": 2.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 15,
+    "upper_deviation_mkm": 4.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 16,
+    "upper_deviation_mkm": 6.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 17,
+    "upper_deviation_mkm": 10.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -10.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 18,
+    "upper_deviation_mkm": 16.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1000,
+    "nominal_to": 1250,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -16.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 2,
+    "upper_deviation_mkm": 21,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -21
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 3,
+    "upper_deviation_mkm": 29,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -29
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 4,
+    "upper_deviation_mkm": 39,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -39
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 5,
+    "upper_deviation_mkm": 55,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -55
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 6,
+    "upper_deviation_mkm": 78,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -78
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 7,
+    "upper_deviation_mkm": 125,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -125
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 8,
+    "upper_deviation_mkm": 195,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -195
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 9,
+    "upper_deviation_mkm": 310,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -310
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 10,
+    "upper_deviation_mkm": 500,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -500
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 11,
+    "upper_deviation_mkm": 780,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -780
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 12,
+    "upper_deviation_mkm": 1.25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 13,
+    "upper_deviation_mkm": 1.95,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.95
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 14,
+    "upper_deviation_mkm": 3.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 15,
+    "upper_deviation_mkm": 5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 16,
+    "upper_deviation_mkm": 7.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 17,
+    "upper_deviation_mkm": 12.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -12.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 18,
+    "upper_deviation_mkm": 19.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1250,
+    "nominal_to": 1600,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -19.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 2,
+    "upper_deviation_mkm": 25,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -25
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 3,
+    "upper_deviation_mkm": 35,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -35
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 4,
+    "upper_deviation_mkm": 46,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -46
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 5,
+    "upper_deviation_mkm": 65,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -65
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 6,
+    "upper_deviation_mkm": 92,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -92
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 7,
+    "upper_deviation_mkm": 150,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -150
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 8,
+    "upper_deviation_mkm": 230,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -230
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 9,
+    "upper_deviation_mkm": 370,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -370
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 10,
+    "upper_deviation_mkm": 600,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -600
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 11,
+    "upper_deviation_mkm": 920,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -920
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 12,
+    "upper_deviation_mkm": 1.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 13,
+    "upper_deviation_mkm": 2.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 14,
+    "upper_deviation_mkm": 3.7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 15,
+    "upper_deviation_mkm": 6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 16,
+    "upper_deviation_mkm": 9.2,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -9.2
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 17,
+    "upper_deviation_mkm": 15,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -15
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 18,
+    "upper_deviation_mkm": 23,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 1600,
+    "nominal_to": 2000,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -23
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 2,
+    "upper_deviation_mkm": 30,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -30
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 3,
+    "upper_deviation_mkm": 41,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -41
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 4,
+    "upper_deviation_mkm": 55,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -55
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 5,
+    "upper_deviation_mkm": 78,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -78
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 6,
+    "upper_deviation_mkm": 110,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -110
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 7,
+    "upper_deviation_mkm": 175,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -175
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 8,
+    "upper_deviation_mkm": 280,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -280
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 9,
+    "upper_deviation_mkm": 440,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -440
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 10,
+    "upper_deviation_mkm": 700,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -700
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 11,
+    "upper_deviation_mkm": 1100,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1100
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 12,
+    "upper_deviation_mkm": 1.75,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1.75
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 13,
+    "upper_deviation_mkm": 2.8,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.8
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 14,
+    "upper_deviation_mkm": 4.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -4.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 15,
+    "upper_deviation_mkm": 7,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -7
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 16,
+    "upper_deviation_mkm": 11,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -11
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 17,
+    "upper_deviation_mkm": 17.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -17.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 18,
+    "upper_deviation_mkm": 28,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2000,
+    "nominal_to": 2500,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -28
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 2,
+    "upper_deviation_mkm": 36,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 2,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -36
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 3,
+    "upper_deviation_mkm": 50,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 3,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -50
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 4,
+    "upper_deviation_mkm": 68,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 4,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -68
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 5,
+    "upper_deviation_mkm": 96,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 5,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -96
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 6,
+    "upper_deviation_mkm": 135,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 6,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -135
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 7,
+    "upper_deviation_mkm": 210,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 7,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -210
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 8,
+    "upper_deviation_mkm": 330,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 8,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -330
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 9,
+    "upper_deviation_mkm": 540,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 9,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -540
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 10,
+    "upper_deviation_mkm": 860,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 10,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -860
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 11,
+    "upper_deviation_mkm": 1350,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 11,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -1350
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 12,
+    "upper_deviation_mkm": 2.1,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 12,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -2.1
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 13,
+    "upper_deviation_mkm": 3.3,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 13,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -3.3
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 14,
+    "upper_deviation_mkm": 5.4,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 14,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -5.4
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 15,
+    "upper_deviation_mkm": 8.6,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 15,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -8.6
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 16,
+    "upper_deviation_mkm": 13.5,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 16,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -13.5
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 17,
+    "upper_deviation_mkm": 21,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 17,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -21
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "hole",
+    "deviation_symbol": "H",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 18,
+    "upper_deviation_mkm": 33,
+    "lower_deviation_mkm": 0.0
+  },
+  {
+    "standard": "ГОСТ 25347-2013",
+    "hole_or_shaft": "shaft",
+    "deviation_symbol": "h",
+    "nominal_from": 2500,
+    "nominal_to": 3150,
+    "grade": 18,
+    "upper_deviation_mkm": 0.0,
+    "lower_deviation_mkm": -33
+  }
+]
