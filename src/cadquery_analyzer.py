@@ -9,7 +9,7 @@ def get_cylinder_type(face):
     Определяет тип цилиндрической грани по ориентации.
     Возвращает 'hole' для внутренней грани (отверстие), 'shaft' для внешней (вал).
     """
-    # Проверяем ориентацию грани в топологическом представлении
+    # Проверка ориентации грани в топологическом представлении
     if face.wrapped.Orientation() == TopAbs_REVERSED:
         return 'hole'
     else:
@@ -28,7 +28,7 @@ def extract_cylinders(step_path: str):
     cylinders = []
 
     for face in all_faces.vals():
-        # Определяем тип поверхности через OCP
+        # Определение цилиндрической поверхности
         surf_adaptor = BRepAdaptor_Surface(face.wrapped, True)
         if surf_adaptor.GetType() == GeomAbs_Cylinder:
             radius = surf_adaptor.Cylinder().Radius()
@@ -39,7 +39,7 @@ def extract_cylinders(step_path: str):
                 "type": cyl_type
             })
 
-    # Удаляем дубликаты (по радиусу и типу, но можно и по радиусу)
+
     unique = []
     seen = set()
     for c in cylinders:
