@@ -1,4 +1,4 @@
-
+# auto_tolerance.py
 import json
 from src.cadquery_analyzer import extract_cylinders
 
@@ -8,7 +8,7 @@ def load_tolerance_data(json_path="data/gost_h_h_tolerances.json"):
 
 
 def suggest_nominal(actual):
-    """Округляет фактический диаметр до ближайшего целого"""
+    """Округляет фактический диаметр до ближайшего целого (можно до 0.5, но для начала целое)"""
     return round(actual)
 
 
@@ -29,10 +29,10 @@ def find_grade_for_actual(actual, nominal, tolerance_data, surface_type):
 
 
 def main():
-
+    # Путь к вашей STEP-модели (замените на реальный файл)
     model_path = "data/model1.step"
 
-#Вывод в консоль информации о подгрузке данных из JSON
+    # Загружаем допуски
     data = load_tolerance_data()
     print(f"Загружено {len(data)} записей допусков.")
 
@@ -44,9 +44,9 @@ def main():
         nominal = suggest_nominal(actual_diam)
         surface_type = cyl.get("type", "unknown")
 
-
+        # Если тип не определен, можно предложить пользователю ввести вручную
         if surface_type == 'unknown':
-
+            # Здесь можно запросить ввод, но для автоматики пропустим
             print(f"\n--- Цилиндр {idx + 1} (тип не распознан) ---")
             continue
 
@@ -55,6 +55,7 @@ def main():
         print(f"\n--- Цилиндр {idx + 1} ---")
         print(f"  Тип: {'вал' if surface_type == 'shaft' else 'отверстие'}")
         print(f"  Фактический диаметр: {actual_diam:.4f} мм")
+        print(f"  Длина цилиндрической поверхности: {cyl['length']:.4f} мм")
         print(f"  Предполагаемый номинальный размер: {nominal:.3f} мм")
         if matches:
             print("  Подходящие квалитеты:")

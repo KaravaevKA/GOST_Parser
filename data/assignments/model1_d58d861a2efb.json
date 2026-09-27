@@ -1,0 +1,15 @@
+{
+  "model_file": "model1.step",
+  "model_sha256": "d58d861a2efb432ba5c328e83627010ca90eb4193e2f01469c557458713d6033",
+  "assignments": {
+    "1": {
+      "grade": 10
+    },
+    "2": {
+      "grade": 8
+    },
+    "5": {
+      "grade": 8
+    }
+  }
+}
