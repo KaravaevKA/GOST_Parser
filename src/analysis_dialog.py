@@ -14,6 +14,11 @@ from src.technological_analysis import (
 )
 
 
+# Параметры волнистого обозначения припуска на схеме, в пикселях.
+ALLOWANCE_WAVE_AMPLITUDE = 4.0
+ALLOWANCE_WAVE_LENGTH = 55.0
+
+
 class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
     def __init__(self, model_hash: str, model_name: str, parent=None):
         super().__init__(parent)
@@ -22,6 +27,7 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         self.resize(1080, 760)
         self.setMinimumSize(860, 600)
         self.data_path = Path(__file__).resolve().parents[1] / "data" / "analysis" / f"{model_hash[:16]}.json"
+        self.chain_editors = {}
         self._build_ui()
         self._load_data()
 
@@ -30,7 +36,14 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         outer = QtWidgets.QVBoxLayout(root)
         self.tabs = QtWidgets.QTabWidget()
         self.tabs.addTab(self._build_allowance_tab(), "1. Переходы и припуски")
-        self.tabs.addTab(self._build_chain_tab(), "2. Размерная цепь")
+        self.tabs.addTab(
+            self._build_chain_tab("diametral", "Построение диаметральной размерной цепи"),
+            "Построение диаметральной размерной цепи",
+        )
+        self.tabs.addTab(
+            self._build_chain_tab("longitudinal", "Построение размерной цепи продольных размеров"),
+            "Построение размерной цепи продольных размеров",
+        )
         outer.addWidget(self.tabs)
         self.setCentralWidget(root)
 
@@ -162,46 +175,54 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             )
         self.allowance_status.setText("\n".join(lines))
 
-    def _build_chain_tab(self):
+    def _build_chain_tab(self, chain_key, title):
         page = QtWidgets.QWidget()
         layout = QtWidgets.QVBoxLayout(page)
-        help_text = QtWidgets.QLabel(
-            "Добавьте поверхности слева направо, затем связи между ними. Связи могут быть "
-            "технологическими размерами, конструкторскими размерами или припусками. "
-            "Схема справа обновляется автоматически."
-        )
+        if chain_key == "longitudinal":
+            help_text = QtWidgets.QLabel(
+                "Добавьте продольные поверхности слева направо и связи между ними. "
+                "Чтобы замкнуть цепь, добавьте связь типа «Продольный размер заготовки» "
+                "между первой и последней поверхностями. Схема справа обновляется автоматически."
+            )
+        else:
+            help_text = QtWidgets.QLabel(
+                "Добавьте поверхности слева направо, затем связи между ними. Связи могут быть "
+                "технологическими размерами, конструкторскими размерами или припусками. "
+                "Схема справа обновляется автоматически."
+            )
         help_text.setWordWrap(True)
         layout.addWidget(help_text)
         splitter = QtWidgets.QSplitter(QtCore.Qt.Orientation.Horizontal)
         left = QtWidgets.QWidget()
         left_layout = QtWidgets.QVBoxLayout(left)
         left_layout.addWidget(QtWidgets.QLabel("Поверхности"))
-        self.surface_table = QtWidgets.QTableWidget(0, 2)
-        self.surface_table.setHorizontalHeaderLabels(["Код", "Описание / база"])
-        self.surface_table.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.ResizeMode.Stretch)
-        left_layout.addWidget(self.surface_table, 1)
+        surface_table = QtWidgets.QTableWidget(0, 2)
+        surface_table.setHorizontalHeaderLabels(["Код", "Описание / база"])
+        surface_table.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.ResizeMode.Stretch)
+        left_layout.addWidget(surface_table, 1)
         surface_buttons = QtWidgets.QHBoxLayout()
         add_surface = QtWidgets.QPushButton("Добавить поверхность")
-        add_surface.clicked.connect(self._add_surface)
+        add_surface.clicked.connect(lambda _checked=False, key=chain_key: self._add_surface(key))
         remove_surface = QtWidgets.QPushButton("Удалить")
-        remove_surface.clicked.connect(self._remove_surface)
+        remove_surface.clicked.connect(lambda _checked=False, key=chain_key: self._remove_surface(key))
         surface_buttons.addWidget(add_surface)
         surface_buttons.addWidget(remove_surface)
         left_layout.addLayout(surface_buttons)
         left_layout.addWidget(QtWidgets.QLabel("Размерные связи"))
-        self.links_table = QtWidgets.QTableWidget(0, 7)
-        self.links_table.setHorizontalHeaderLabels([
+        links_table = QtWidgets.QTableWidget(0, 7)
+        links_table.setHorizontalHeaderLabels([
             "Обозначение", "Тип", "От", "До", "Номинал, мм", "Верхнее откл., мм", "Нижнее откл., мм"
         ])
-        self.links_table.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.ResizeMode.ResizeToContents)
-        self.links_table.horizontalHeader().setStretchLastSection(True)
-        left_layout.addWidget(self.links_table, 1)
+        links_table.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.ResizeMode.ResizeToContents)
+        links_table.horizontalHeader().setStretchLastSection(True)
+        left_layout.addWidget(links_table, 1)
         link_buttons = QtWidgets.QHBoxLayout()
         add_link = QtWidgets.QPushButton("Добавить связь")
-        add_link.clicked.connect(self._add_link)
+        add_link.clicked.connect(lambda _checked=False, key=chain_key: self._add_link(key))
         remove_link = QtWidgets.QPushButton("Удалить связь")
-        remove_link.clicked.connect(lambda: self.links_table.removeRow(self.links_table.currentRow())
-                                    if self.links_table.currentRow() >= 0 else None)
+        remove_link.clicked.connect(
+            lambda _checked=False, key=chain_key: self._remove_link(key)
+        )
         link_buttons.addWidget(add_link)
         link_buttons.addWidget(remove_link)
         left_layout.addLayout(link_buttons)
@@ -209,48 +230,77 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
 
         right = QtWidgets.QWidget()
         right_layout = QtWidgets.QVBoxLayout(right)
-        right_layout.addWidget(QtWidgets.QLabel("Схема технологической размерной цепи"))
-        self.chain_scene = QtWidgets.QGraphicsScene(self)
-        self.chain_view = QtWidgets.QGraphicsView(self.chain_scene)
-        self.chain_view.setRenderHint(QtGui.QPainter.RenderHint.Antialiasing)
-        self.chain_view.setMinimumWidth(360)
-        right_layout.addWidget(self.chain_view, 1)
-        self.chain_status = QtWidgets.QLabel("Добавьте поверхности и связи.")
-        self.chain_status.setWordWrap(True)
-        right_layout.addWidget(self.chain_status)
+        right_layout.addWidget(QtWidgets.QLabel(f"Схема: {title.lower()}"))
+        scene = QtWidgets.QGraphicsScene(self)
+        view = QtWidgets.QGraphicsView(scene)
+        view.setRenderHint(QtGui.QPainter.RenderHint.Antialiasing)
+        view.setMinimumWidth(360)
+        right_layout.addWidget(view, 1)
+        status = QtWidgets.QLabel("Добавьте поверхности и связи.")
+        status.setWordWrap(True)
+        right_layout.addWidget(status)
         splitter.addWidget(right)
         splitter.setSizes([600, 480])
         layout.addWidget(splitter, 1)
         save = QtWidgets.QPushButton("Сохранить исходные данные")
         save.clicked.connect(self._save_data)
         layout.addWidget(save, alignment=QtCore.Qt.AlignmentFlag.AlignRight)
-        self.surface_table.itemChanged.connect(self._refresh_surface_choices)
-        self.links_table.itemChanged.connect(self._refresh_chain)
+
+        link_types = ["Технологический размер", "Конструкторский размер", "Припуск"]
+        if chain_key == "longitudinal":
+            link_types.append("Продольный размер заготовки")
+
+        self.chain_editors[chain_key] = {
+            "surface_table": surface_table,
+            "links_table": links_table,
+            "scene": scene,
+            "view": view,
+            "status": status,
+            "link_types": link_types,
+        }
+        surface_table.itemChanged.connect(
+            lambda _item=None, key=chain_key: self._refresh_surface_choices(key)
+        )
+        links_table.itemChanged.connect(
+            lambda _item=None, key=chain_key: self._refresh_chain(key)
+        )
         return page
 
-    def _add_surface(self, surface=None):
-        surface = surface or {}
-        row = self.surface_table.rowCount()
-        self.surface_table.insertRow(row)
-        self.surface_table.setItem(row, 0, QtWidgets.QTableWidgetItem(str(surface.get("id", row + 1))))
-        self.surface_table.setItem(row, 1, QtWidgets.QTableWidgetItem(surface.get("description", "")))
-        self._refresh_surface_choices()
-
-    def _remove_surface(self):
-        row = self.surface_table.currentRow()
+    def _remove_link(self, chain_key):
+        table = self.chain_editors[chain_key]["links_table"]
+        row = table.currentRow()
         if row >= 0:
-            self.surface_table.removeRow(row)
-            self._refresh_surface_choices()
+            table.removeRow(row)
+            self._refresh_chain(chain_key)
 
-    def _surface_ids(self):
-        return [self.surface_table.item(row, 0).text().strip()
-                for row in range(self.surface_table.rowCount()) if self.surface_table.item(row, 0)]
+    def _add_surface(self, chain_key, surface=None):
+        surface = surface or {}
+        table = self.chain_editors[chain_key]["surface_table"]
+        row = table.rowCount()
+        table.insertRow(row)
+        table.setItem(row, 0, QtWidgets.QTableWidgetItem(str(surface.get("id", row + 1))))
+        table.setItem(row, 1, QtWidgets.QTableWidgetItem(surface.get("description", "")))
+        self._refresh_surface_choices(chain_key)
 
-    def _refresh_surface_choices(self, *_):
-        ids = self._surface_ids()
-        for row in range(self.links_table.rowCount()):
+    def _remove_surface(self, chain_key):
+        table = self.chain_editors[chain_key]["surface_table"]
+        row = table.currentRow()
+        if row >= 0:
+            table.removeRow(row)
+            self._refresh_surface_choices(chain_key)
+
+    def _surface_ids(self, chain_key):
+        table = self.chain_editors[chain_key]["surface_table"]
+        return [table.item(row, 0).text().strip()
+                for row in range(table.rowCount()) if table.item(row, 0)]
+
+    def _refresh_surface_choices(self, chain_key):
+        editor = self.chain_editors[chain_key]
+        ids = self._surface_ids(chain_key)
+        links_table = editor["links_table"]
+        for row in range(links_table.rowCount()):
             for column in (2, 3):
-                combo = self.links_table.cellWidget(row, column)
+                combo = links_table.cellWidget(row, column)
                 old = combo.currentText() if combo else ""
                 combo.blockSignals(True)
                 combo.clear()
@@ -258,113 +308,186 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 if old in ids:
                     combo.setCurrentText(old)
                 combo.blockSignals(False)
-        self._refresh_chain()
+        self._refresh_chain(chain_key)
 
-    def _add_link(self, link=None):
+    def _add_link(self, chain_key, link=None):
         link = link or {}
-        row = self.links_table.rowCount()
-        self.links_table.insertRow(row)
-        self.links_table.setItem(row, 0, QtWidgets.QTableWidgetItem(link.get("label", f"A{row + 1}")))
+        editor = self.chain_editors[chain_key]
+        links_table = editor["links_table"]
+        row = links_table.rowCount()
+        links_table.insertRow(row)
+        default_label = f"Zз" if chain_key == "longitudinal" else f"A{row + 1}"
+        links_table.setItem(row, 0, QtWidgets.QTableWidgetItem(link.get("label", default_label)))
         kind = QtWidgets.QComboBox()
-        kind.addItems(["Технологический размер", "Конструкторский размер", "Припуск"])
+        kind.addItems(editor["link_types"])
         kind.setCurrentText(link.get("type", "Технологический размер"))
-        self.links_table.setCellWidget(row, 1, kind)
-        ids = self._surface_ids()
+        links_table.setCellWidget(row, 1, kind)
+        ids = self._surface_ids(chain_key)
         for column, key in [(2, "start"), (3, "end")]:
             combo = QtWidgets.QComboBox()
             combo.addItems(ids)
             if link.get(key) in ids:
                 combo.setCurrentText(link[key])
-            self.links_table.setCellWidget(row, column, combo)
+            links_table.setCellWidget(row, column, combo)
         nominal = self._float_box(float(link.get("nominal_mm", 0)), 1_000_000)
-        self.links_table.setCellWidget(row, 4, nominal)
+        links_table.setCellWidget(row, 4, nominal)
         legacy_tolerance = float(link.get("tolerance_mm", 0))
         upper = self._signed_float_box(float(link.get("upper_deviation_mm", legacy_tolerance)))
         lower = self._signed_float_box(float(link.get("lower_deviation_mm", -legacy_tolerance)))
-        self.links_table.setCellWidget(row, 5, upper)
-        self.links_table.setCellWidget(row, 6, lower)
-        self._refresh_chain()
+        links_table.setCellWidget(row, 5, upper)
+        links_table.setCellWidget(row, 6, lower)
+        self._refresh_chain(chain_key)
 
-    def _read_chain(self):
+    def _read_chain(self, chain_key):
+        editor = self.chain_editors[chain_key]
+        surface_table = editor["surface_table"]
+        links_table = editor["links_table"]
         surfaces = []
-        for row in range(self.surface_table.rowCount()):
+        for row in range(surface_table.rowCount()):
             surfaces.append({
-                "id": self.surface_table.item(row, 0).text().strip() if self.surface_table.item(row, 0) else "",
-                "description": self.surface_table.item(row, 1).text().strip() if self.surface_table.item(row, 1) else "",
+                "id": surface_table.item(row, 0).text().strip() if surface_table.item(row, 0) else "",
+                "description": surface_table.item(row, 1).text().strip() if surface_table.item(row, 1) else "",
             })
         links = []
-        for row in range(self.links_table.rowCount()):
+        for row in range(links_table.rowCount()):
             links.append({
-                "label": self.links_table.item(row, 0).text().strip() if self.links_table.item(row, 0) else "",
-                "type": self.links_table.cellWidget(row, 1).currentText(),
-                "start": self.links_table.cellWidget(row, 2).currentText(),
-                "end": self.links_table.cellWidget(row, 3).currentText(),
-                "nominal_mm": self.links_table.cellWidget(row, 4).value(),
-                "upper_deviation_mm": self.links_table.cellWidget(row, 5).value(),
-                "lower_deviation_mm": self.links_table.cellWidget(row, 6).value(),
+                "label": links_table.item(row, 0).text().strip() if links_table.item(row, 0) else "",
+                "type": links_table.cellWidget(row, 1).currentText(),
+                "start": links_table.cellWidget(row, 2).currentText(),
+                "end": links_table.cellWidget(row, 3).currentText(),
+                "nominal_mm": links_table.cellWidget(row, 4).value(),
+                "upper_deviation_mm": links_table.cellWidget(row, 5).value(),
+                "lower_deviation_mm": links_table.cellWidget(row, 6).value(),
             })
         return surfaces, links
 
-    def _refresh_chain(self, *_):
-        surfaces, links = self._read_chain()
+    def _refresh_chain(self, chain_key, *_):
+        editor = self.chain_editors[chain_key]
+        scene = editor["scene"]
+        view = editor["view"]
+        status = editor["status"]
+        surfaces, links = self._read_chain(chain_key)
         ids = [item["id"] for item in surfaces]
         index = {value: position for position, value in enumerate(ids)}
-        self.chain_scene.clear()
+        scene.clear()
         if not ids:
-            self.chain_scene.setSceneRect(0, 0, 400, 200)
-            self.chain_status.setText("Добавьте поверхности и связи.")
+            scene.setSceneRect(0, 0, 400, 200)
+            status.setText("Добавьте поверхности и связи.")
             return
-        x0, gap, y0 = 50, 130, 230
+        valid_links = [
+            link for link in links
+            if link["start"] in index
+            and link["end"] in index
+            and link["start"] != link["end"]
+        ]
+        lane_step = 62
+        y0 = max(230, 105 + lane_step * len(valid_links))
+        x0, gap = 50, 130
         node_positions = {value: (x0 + i * gap, y0) for i, value in enumerate(ids)}
         pen_node = QtGui.QPen(QtGui.QColor("#20354a"), 2)
         for surface in surfaces:
             x, y = node_positions[surface["id"]]
-            self.chain_scene.addEllipse(x - 20, y - 20, 40, 40, pen_node, QtGui.QBrush(QtGui.QColor("#dcecff")))
-            label = self.chain_scene.addText(surface["id"])
+            scene.addEllipse(x - 20, y - 20, 40, 40, pen_node, QtGui.QBrush(QtGui.QColor("#dcecff")))
+            label = scene.addText(surface["id"])
             label.setPos(x - label.boundingRect().width() / 2, y - 10)
             if surface["description"]:
-                desc = self.chain_scene.addText(surface["description"])
+                desc = scene.addText(surface["description"])
                 desc.setPos(x - 50, y + 26)
-        colors = {"Технологический размер": "#2471a3", "Конструкторский размер": "#8e44ad", "Припуск": "#d35400"}
-        for number, link in enumerate(links):
-            if link["start"] not in index or link["end"] not in index or link["start"] == link["end"]:
-                continue
+        colors = {
+            "Технологический размер": "#2471a3",
+            "Конструкторский размер": "#8e44ad",
+            "Припуск": "#d35400",
+            "Продольный размер заготовки": "#13866d",
+        }
+        for number, link in enumerate(valid_links):
             x1, _ = node_positions[link["start"]]
             x2, _ = node_positions[link["end"]]
-            level = number // max(len(ids) - 1, 1)
-            y = y0 - 65 - level * 45
+            y = y0 - 55 - number * lane_step
             color = QtGui.QColor(colors[link["type"]])
             pen = QtGui.QPen(color, 2)
-            self.chain_scene.addLine(x1, y0 - 20, x1, y, pen)
-            self.chain_scene.addLine(x1, y, x2, y, pen)
-            self.chain_scene.addLine(x2, y, x2, y0 - 20, pen)
+            scene.addLine(x1, y0 - 20, x1, y, pen)
+            scene.addLine(x2, y, x2, y0 - 20, pen)
+            if link["type"] == "Припуск":
+                # Амплитуда управляет высотой волн, длина — расстоянием между ними.
+                path = QtGui.QPainterPath()
+                path.moveTo(x1, y)
+                wave_count = max(2, round(abs(x2 - x1) / ALLOWANCE_WAVE_LENGTH))
+                segments = wave_count * 2
+                step = (x2 - x1) / segments
+                for part in range(segments):
+                    start_x = x1 + part * step
+                    end_x = start_x + step
+                    direction = 1 if part % 2 == 0 else -1
+                    path.cubicTo(
+                        start_x + step / 3,
+                        y + direction * ALLOWANCE_WAVE_AMPLITUDE,
+                        start_x + 2 * step / 3,
+                        y - direction * ALLOWANCE_WAVE_AMPLITUDE,
+                        end_x,
+                        y,
+                    )
+                scene.addPath(path, pen)
+            else:
+                scene.addLine(x1, y, x2, y, pen)
             text = (f"{link['label']}  {link['nominal_mm']:g} "
                     f"({link['upper_deviation_mm']:+g}; {link['lower_deviation_mm']:+g}) мм")
-            label = self.chain_scene.addText(text)
+            label = scene.addText(text)
             label.setDefaultTextColor(color)
-            label.setPos((x1 + x2) / 2 - label.boundingRect().width() / 2, y - 22)
-            arrow = self.chain_scene.addPolygon(QtGui.QPolygonF([
+            label.setPos(
+                (x1 + x2) / 2 - label.boundingRect().width() / 2,
+                y - label.boundingRect().height() - 7,
+            )
+            label.setZValue(2)
+            background = scene.addRect(
+                label.sceneBoundingRect().adjusted(-4, -2, 4, 2),
+                QtGui.QPen(QtCore.Qt.PenStyle.NoPen),
+                QtGui.QBrush(QtGui.QColor("#ffffff")),
+            )
+            background.setZValue(1)
+            scene.addPolygon(QtGui.QPolygonF([
                 QtCore.QPointF(x2, y0 - 20), QtCore.QPointF(x2 - 5, y0 - 29), QtCore.QPointF(x2 + 5, y0 - 29)
             ]), pen, QtGui.QBrush(color))
-        self.chain_scene.setSceneRect(self.chain_scene.itemsBoundingRect().adjusted(-30, -30, 30, 30))
-        self.chain_view.fitInView(self.chain_scene.sceneRect(), QtCore.Qt.AspectRatioMode.KeepAspectRatio)
+        scene.setSceneRect(scene.itemsBoundingRect().adjusted(-30, -30, 30, 30))
+        view.fitInView(scene.sceneRect(), QtCore.Qt.AspectRatioMode.KeepAspectRatio)
         errors = validate_chain(surfaces, links)
-        self.chain_status.setText("Проверка схемы: " + ("; ".join(errors) if errors else "структура дерева корректна."))
+        if chain_key == "longitudinal":
+            stock_links = [link for link in links if link["type"] == "Продольный размер заготовки"]
+            if not stock_links:
+                errors.append("Добавьте продольный размер заготовки — он замкнёт размерную цепь.")
+            elif len(stock_links) > 1:
+                errors.append("Для замыкания укажите только один продольный размер заготовки.")
+            elif len(ids) >= 2:
+                outer_surfaces = {ids[0], ids[-1]}
+                stock_link = stock_links[0]
+                if {stock_link["start"], stock_link["end"]} != outer_surfaces:
+                    errors.append("Размер заготовки должен связывать первую и последнюю поверхности.")
+        status.setText(
+            "Проверка схемы: " + ("; ".join(errors) if errors else (
+                "структура размерной цепи корректна."
+                if chain_key == "longitudinal"
+                else "структура дерева корректна."
+            ))
+        )
 
     def _save_data(self):
-        surfaces, links = self._read_chain()
+        surfaces, links = self._read_chain("diametral")
+        longitudinal_surfaces, longitudinal_links = self._read_chain("longitudinal")
         payload = {
             "model_sha256": self.model_hash,
             "stock": {"surface_shift_um": self.shift_box.value(),
                       "curvature_um_per_mm": self.curvature_box.value(),
                       "length_mm": self.length_box.value()},
             "stages": self._read_stages(),
+            # Старые ключи сохраняются для совместимости с уже созданными JSON.
             "surfaces": surfaces,
             "links": links,
+            "longitudinal_surfaces": longitudinal_surfaces,
+            "longitudinal_links": longitudinal_links,
         }
         self.data_path.parent.mkdir(parents=True, exist_ok=True)
         self.data_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        self.chain_status.setText(f"Исходные данные сохранены: {self.data_path.name}")
+        for editor in self.chain_editors.values():
+            editor["status"].setText(f"Исходные данные сохранены: {self.data_path.name}")
 
     def _load_data(self):
         if not self.data_path.exists():
@@ -378,10 +501,15 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             for stage in data.get("stages", []):
                 self._add_stage(stage)
             for surface in data.get("surfaces", []):
-                self._add_surface(surface)
+                self._add_surface("diametral", surface)
             for link in data.get("links", []):
-                self._add_link(link)
-            self._refresh_chain()
+                self._add_link("diametral", link)
+            for surface in data.get("longitudinal_surfaces", []):
+                self._add_surface("longitudinal", surface)
+            for link in data.get("longitudinal_links", []):
+                self._add_link("longitudinal", link)
+            self._refresh_chain("diametral")
+            self._refresh_chain("longitudinal")
         except (OSError, ValueError, TypeError, KeyError):
             QtWidgets.QMessageBox.warning(self, "Не удалось загрузить анализ",
                                           "Файл исходных данных повреждён или имеет неверный формат.")
