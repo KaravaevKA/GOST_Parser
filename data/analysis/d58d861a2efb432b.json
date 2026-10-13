@@ -1,0 +1,334 @@
+{
+  "model_sha256": "d58d861a2efb432ba5c328e83627010ca90eb4193e2f01469c557458713d6033",
+  "stock": {
+    "surface_shift_um": 0.0,
+    "curvature_um_per_mm": 0.5,
+    "length_mm": 37.0
+  },
+  "stages": [
+    {
+      "name": "Черновое точение",
+      "kind": "rotational",
+      "roughness_um": 25.0,
+      "defect_layer_um": 6.0,
+      "ky": 0.06,
+      "basing_error_um": 3.0,
+      "clamping_error_um": 4.0,
+      "reinstalled": false,
+      "finishing_only": false
+    },
+    {
+      "name": "Получистовое точение",
+      "kind": "rotational",
+      "roughness_um": 12.5,
+      "defect_layer_um": 3.0,
+      "ky": 0.04,
+      "basing_error_um": 1.0,
+      "clamping_error_um": 2.0,
+      "reinstalled": false,
+      "finishing_only": false
+    }
+  ],
+  "processing_routes": {
+    "diametral:face:1": {
+      "operation_count": 2,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Сверление",
+          "grade": 12
+        },
+        {
+          "number": 2,
+          "operation": "Получистовое точение",
+          "grade": 9
+        }
+      ]
+    },
+    "diametral:face:2": {
+      "operation_count": 3,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Черновое точение",
+          "grade": 12
+        },
+        {
+          "number": 2,
+          "operation": "Получистовое точение",
+          "grade": 9
+        },
+        {
+          "number": 3,
+          "operation": "Чистовое точение",
+          "grade": 8
+        }
+      ]
+    },
+    "diametral:face:5": {
+      "operation_count": 2,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Черновое точение",
+          "grade": 12
+        },
+        {
+          "number": 2,
+          "operation": "Получистовое точение",
+          "grade": 9
+        }
+      ]
+    },
+    "longitudinal:face:0": {
+      "operation_count": 1,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Черновое точение",
+          "grade": 11
+        }
+      ]
+    },
+    "longitudinal:face:3": {
+      "operation_count": 1,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Получистовое точение",
+          "grade": 9
+        }
+      ]
+    },
+    "longitudinal:face:4": {
+      "operation_count": 3,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Черновое точение",
+          "grade": 12
+        },
+        {
+          "number": 2,
+          "operation": "Получистовое точение",
+          "grade": 9
+        },
+        {
+          "number": 3,
+          "operation": "Чистовое точение",
+          "grade": 8
+        }
+      ]
+    },
+    "longitudinal:face:6": {
+      "operation_count": 2,
+      "stock_grade": 16,
+      "operations": [
+        {
+          "number": 1,
+          "operation": "Черновое точение",
+          "grade": 12
+        },
+        {
+          "number": 2,
+          "operation": "Получистовое точение",
+          "grade": 9
+        }
+      ]
+    }
+  },
+  "surfaces": [
+    {
+      "id": "D1",
+      "description": "Авто: отверстие, Ø10.1556 мм; осевая длина 10.0000 мм",
+      "process_meta": {
+        "category": "diametral",
+        "diameter_mm": 10.1556,
+        "face_index": 1,
+        "key": "diametral:face:1",
+        "length_mm": 10.0,
+        "nominal_mm": 10.0,
+        "station_mm": null,
+        "surface_type": "hole"
+      }
+    },
+    {
+      "id": "D2",
+      "description": "Авто: вал, Ø28.9480 мм; осевая длина 37.0000 мм",
+      "process_meta": {
+        "category": "diametral",
+        "diameter_mm": 28.948,
+        "face_index": 2,
+        "key": "diametral:face:2",
+        "length_mm": 37.0,
+        "nominal_mm": 29.0,
+        "station_mm": null,
+        "surface_type": "shaft"
+      }
+    },
+    {
+      "id": "D3",
+      "description": "Авто: вал, Ø45.8459 мм; осевая длина 37.0000 мм",
+      "process_meta": {
+        "category": "diametral",
+        "diameter_mm": 45.8459289144744,
+        "face_index": 5,
+        "key": "diametral:face:5",
+        "length_mm": 37.0,
+        "nominal_mm": 46.0,
+        "station_mm": null,
+        "surface_type": "shaft"
+      }
+    }
+  ],
+  "links": [],
+  "longitudinal_surfaces": [
+    {
+      "id": "L1-T1",
+      "description": "Авто: после оп. 1 — Черновое точение, IT11",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 11,
+        "operation": "Черновое точение",
+        "operation_number": 1,
+        "parent_source_key": "longitudinal:face:0",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "1",
+      "description": "Авто: плоская грань STEP №1; положение по оси детали 0.000 мм",
+      "process_meta": {
+        "category": "longitudinal",
+        "diameter_mm": 0.0,
+        "face_index": 0,
+        "key": "longitudinal:face:0",
+        "length_mm": 0.0,
+        "nominal_mm": 0.0,
+        "station_mm": 0.0,
+        "surface_type": "plane"
+      }
+    },
+    {
+      "id": "L2-T1",
+      "description": "Авто: после оп. 1 — Получистовое точение, IT9",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 9,
+        "operation": "Получистовое точение",
+        "operation_number": 1,
+        "parent_source_key": "longitudinal:face:3",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "2",
+      "description": "Авто: плоская грань STEP №4; положение по оси детали 10.000 мм",
+      "process_meta": {
+        "category": "longitudinal",
+        "diameter_mm": 0.0,
+        "face_index": 3,
+        "key": "longitudinal:face:3",
+        "length_mm": 0.0,
+        "nominal_mm": 10.0,
+        "station_mm": 10.0,
+        "surface_type": "plane"
+      }
+    },
+    {
+      "id": "L3-T1",
+      "description": "Авто: после оп. 1 — Черновое точение, IT12",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 12,
+        "operation": "Черновое точение",
+        "operation_number": 1,
+        "parent_source_key": "longitudinal:face:4",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "L3-T2",
+      "description": "Авто: после оп. 2 — Получистовое точение, IT9",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 9,
+        "operation": "Получистовое точение",
+        "operation_number": 2,
+        "parent_source_key": "longitudinal:face:4",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "L3-T3",
+      "description": "Авто: после оп. 3 — Чистовое точение, IT8",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 8,
+        "operation": "Чистовое точение",
+        "operation_number": 3,
+        "parent_source_key": "longitudinal:face:4",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "3",
+      "description": "Авто: плоская грань STEP №5; положение по оси детали 37.000 мм",
+      "process_meta": {
+        "category": "longitudinal",
+        "diameter_mm": 0.0,
+        "face_index": 4,
+        "key": "longitudinal:face:4",
+        "length_mm": 0.0,
+        "nominal_mm": 37.0,
+        "station_mm": 37.0,
+        "surface_type": "plane"
+      }
+    },
+    {
+      "id": "L4-T1",
+      "description": "Авто: после оп. 1 — Черновое точение, IT12",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 12,
+        "operation": "Черновое точение",
+        "operation_number": 1,
+        "parent_source_key": "longitudinal:face:6",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "L4-T2",
+      "description": "Авто: после оп. 2 — Получистовое точение, IT9",
+      "process_meta": {
+        "category": "longitudinal",
+        "grade": 9,
+        "operation": "Получистовое точение",
+        "operation_number": 2,
+        "parent_source_key": "longitudinal:face:6",
+        "route_generated": true
+      }
+    },
+    {
+      "id": "4",
+      "description": "Авто: плоская грань STEP №7; положение по оси детали 74.000 мм",
+      "process_meta": {
+        "category": "longitudinal",
+        "diameter_mm": 0.0,
+        "face_index": 6,
+        "key": "longitudinal:face:6",
+        "length_mm": 0.0,
+        "nominal_mm": 74.0,
+        "station_mm": 74.0,
+        "surface_type": "plane"
+      }
+    }
+  ],
+  "longitudinal_links": []
+}

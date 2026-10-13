@@ -1,0 +1,105 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 13-OCT-2026  4:06:37 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\janna\PycharmProjects\GOST_Parser\data\model1.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        model1
+! SUMMARY-  Date             2026-04-25T13:53:12
+! SUMMARY-  Author           kirill
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      C3D Converter
+! SUMMARY-  Orig_System      C3D Toolkit
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:      7
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  approval ...................................................:      1
+! SUMMARY-  approval_date_time .........................................:      1
+! SUMMARY-  approval_status ............................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:     14
+! SUMMARY-  calendar_date ..............................................:      2
+! SUMMARY-  cartesian_point ............................................:     20
+! SUMMARY-  cc_design_approval .........................................:      1
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      1
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:      1
+! SUMMARY-  circle .....................................................:      6
+! SUMMARY-  closed_shell ...............................................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:      2
+! SUMMARY-  cylindrical_surface ........................................:      3
+! SUMMARY-  date_and_time ..............................................:      2
+! SUMMARY-  date_time_role .............................................:      1
+! SUMMARY-  design_context .............................................:      1
+! SUMMARY-  direction ..................................................:     28
+! SUMMARY-  edge_curve .................................................:      6
+! SUMMARY-  edge_loop ..................................................:     12
+! SUMMARY-  face_bound .................................................:      6
+! SUMMARY-  face_outer_bound ...........................................:      6
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  local_time .................................................:      2
+! SUMMARY-  manifold_solid_brep ........................................:      1
+! SUMMARY-  mechanical_context .........................................:      1
+! SUMMARY-  organization ...............................................:      1
+! SUMMARY-  oriented_edge ..............................................:     12
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:      1
+! SUMMARY-  person_and_organization_role ...............................:      1
+! SUMMARY-  plane ......................................................:      4
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vertex_point ...............................................:      6
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                            164
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-OCT-2026 4:06:37 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-OCT-2026  4:06:37 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\janna\PycharmProjects\GOST_Parser\data\model1_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         1
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         1
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-OCT-2026  4:06:37 PM
+! INFO-      

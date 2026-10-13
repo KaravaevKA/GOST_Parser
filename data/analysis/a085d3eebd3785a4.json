@@ -1,0 +1,281 @@
+{
+  "model_sha256": "a085d3eebd3785a43ec177b5d6ac1153eaed474e009cd09a2ae28d5167cb8d19",
+  "stock": {
+    "surface_shift_um": 0.0,
+    "curvature_um_per_mm": 0.0,
+    "length_mm": 1.0
+  },
+  "stages": [],
+  "surfaces": [
+    {
+      "id": "1",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "description": ""
+    },
+    {
+      "id": "4",
+      "description": ""
+    },
+    {
+      "id": "5",
+      "description": ""
+    }
+  ],
+  "links": [
+    {
+      "label": "Kd2",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "2",
+      "nominal_mm": 22.0,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.021
+    },
+    {
+      "label": "D3.1",
+      "type": "Технологический размер",
+      "start": "1",
+      "end": "2",
+      "nominal_mm": 22.0,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.021
+    },
+    {
+      "label": "Zd3.1",
+      "type": "Припуск",
+      "start": "2",
+      "end": "3",
+      "nominal_mm": 0.117,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "D1.5",
+      "type": "Технологический размер",
+      "start": "1",
+      "end": "3",
+      "nominal_mm": 22.1125,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.033
+    },
+    {
+      "label": "D1.2",
+      "type": "Технологический размер",
+      "start": "1",
+      "end": "4",
+      "nominal_mm": 22.6225,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.13
+    },
+    {
+      "label": "Zd1.5",
+      "type": "Припуск",
+      "start": "3",
+      "end": "4",
+      "nominal_mm": 0.4615,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "Zd1.2",
+      "type": "Припуск",
+      "start": "4",
+      "end": "5",
+      "nominal_mm": 0.5108,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "D1.2",
+      "type": "Технологический размер",
+      "start": "1",
+      "end": "5",
+      "nominal_mm": 25.8325,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.13
+    }
+  ],
+  "longitudinal_surfaces": [
+    {
+      "id": "1",
+      "description": "0.000 мм"
+    },
+    {
+      "id": "2",
+      "description": "3.354 мм"
+    },
+    {
+      "id": "3",
+      "description": "5.154 мм"
+    },
+    {
+      "id": "4",
+      "description": "5.954 мм"
+    },
+    {
+      "id": "5",
+      "description": "7.154 мм"
+    },
+    {
+      "id": "6",
+      "description": "13.154 мм"
+    },
+    {
+      "id": "7",
+      "description": "19.000 мм"
+    },
+    {
+      "id": "8",
+      "description": "19.000 мм"
+    },
+    {
+      "id": "9",
+      "description": "20.600 мм"
+    },
+    {
+      "id": "10",
+      "description": "20.700 мм"
+    },
+    {
+      "id": "11",
+      "description": "21.400 мм"
+    },
+    {
+      "id": "12",
+      "description": "22.900 мм"
+    },
+    {
+      "id": "13",
+      "description": "23.700 мм"
+    },
+    {
+      "id": "14",
+      "description": "25.000 мм"
+    },
+    {
+      "id": "15",
+      "description": "25.500 мм"
+    },
+    {
+      "id": "16",
+      "description": "26.000 мм"
+    }
+  ],
+  "longitudinal_links": [
+    {
+      "label": "К1",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "2",
+      "nominal_mm": 3.35,
+      "upper_deviation_mm": 0.05,
+      "lower_deviation_mm": -0.1
+    },
+    {
+      "label": "К2",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "3",
+      "nominal_mm": 5.15,
+      "upper_deviation_mm": 0.1,
+      "lower_deviation_mm": -0.1
+    },
+    {
+      "label": "К3",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "6",
+      "nominal_mm": 13.15,
+      "upper_deviation_mm": 0.2,
+      "lower_deviation_mm": -0.2
+    },
+    {
+      "label": "К4",
+      "type": "Конструкторский размер",
+      "start": "5",
+      "end": "6",
+      "nominal_mm": 6.0,
+      "upper_deviation_mm": 0.075,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "К5",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "7",
+      "nominal_mm": 19.0,
+      "upper_deviation_mm": 0.05,
+      "lower_deviation_mm": -0.1
+    },
+    {
+      "label": "К6",
+      "type": "Конструкторский размер",
+      "start": "16",
+      "end": "15",
+      "nominal_mm": 0.0,
+      "upper_deviation_mm": -0.8,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "К7",
+      "type": "Конструкторский размер",
+      "start": "16",
+      "end": "14",
+      "nominal_mm": 0.0,
+      "upper_deviation_mm": 0.15,
+      "lower_deviation_mm": -1.0
+    },
+    {
+      "label": "К8",
+      "type": "Конструкторский размер",
+      "start": "16",
+      "end": "12",
+      "nominal_mm": 2.1,
+      "upper_deviation_mm": 0.1,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "К9",
+      "type": "Конструкторский размер",
+      "start": "16",
+      "end": "9",
+      "nominal_mm": 5.4,
+      "upper_deviation_mm": 0.15,
+      "lower_deviation_mm": -0.05
+    },
+    {
+      "label": "К10",
+      "type": "Конструкторский размер",
+      "start": "11",
+      "end": "9",
+      "nominal_mm": 0.8,
+      "upper_deviation_mm": 0.04,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "К11",
+      "type": "Конструкторский размер",
+      "start": "16",
+      "end": "10",
+      "nominal_mm": 5.3,
+      "upper_deviation_mm": 0.1,
+      "lower_deviation_mm": 0.0
+    },
+    {
+      "label": "К12",
+      "type": "Конструкторский размер",
+      "start": "1",
+      "end": "1",
+      "nominal_mm": 0.0,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": 0.0
+    }
+  ]
+}

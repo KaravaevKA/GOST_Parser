@@ -18,7 +18,10 @@ from vtkmodules.vtkRenderingCore import (
 )
 from vtkmodules.vtkInteractionStyle import vtkInteractorStyleTrackballCamera
 
-from src.cadquery_analyzer import extract_cylinders_from_part
+from src.cadquery_analyzer import (
+    extract_cylinders_from_part,
+    extract_longitudinal_planes_from_part,
+)
 from src.tolerance_logic import grade_options, suggest_nominal
 from src.analysis_dialog import TechnologicalAnalysisWindow
 
@@ -69,6 +72,8 @@ class ModelViewWindow(QtWidgets.QMainWindow):
     """Отдельное окно VTK с подсветкой и выбором граней мышью."""
 
     surface_picked = QtCore.Signal(int)
+    open_model_requested = QtCore.Signal()
+    analysis_requested = QtCore.Signal()
 
     def __init__(self):
         super().__init__()
@@ -79,7 +84,23 @@ class ModelViewWindow(QtWidgets.QMainWindow):
         central = QtWidgets.QWidget()
         layout = QtWidgets.QVBoxLayout(central)
         layout.setContentsMargins(8, 8, 8, 8)
-        layout.addWidget(QtWidgets.QLabel("Нажмите на цилиндрическую грань, чтобы выбрать её"))
+
+        toolbar = QtWidgets.QHBoxLayout()
+
+        open_button = QtWidgets.QPushButton("Открыть STEP…")
+        open_button.clicked.connect(
+            lambda _checked=False: self.open_model_requested.emit()
+        )
+        toolbar.addWidget(open_button)
+
+        self.analysis_button = QtWidgets.QPushButton("Расчёт припусков и цепей…")
+        self.analysis_button.setEnabled(False)
+        self.analysis_button.clicked.connect(
+            lambda _checked=False: self.analysis_requested.emit()
+        )
+        toolbar.addWidget(self.analysis_button)
+
+        layout.addLayout(toolbar)
 
         self.vtk_widget = QVTKRenderWindowInteractor(central)
         layout.addWidget(self.vtk_widget, stretch=1)
@@ -110,6 +131,7 @@ class ModelViewWindow(QtWidgets.QMainWindow):
         self.actors.clear()
         self.actor_to_face_index.clear()
         self.surface_by_face = {item["face_index"]: item for item in surfaces}
+        self.analysis_button.setEnabled(True)
 
         for face_index, face in enumerate(faces):
             color = COLOR_UNSELECTED if face_index in self.surface_by_face else COLOR_OTHER_FACE
@@ -136,9 +158,7 @@ class ModelViewWindow(QtWidgets.QMainWindow):
             self.surface_picked.emit(face_index)
 
     def closeEvent(self, event):
-        # Закрытие прячет окно, чтобы его можно было снова открыть из главного.
-        self.hide()
-        event.ignore()
+        event.accept()
 
 
 class SurfaceApp(QtWidgets.QMainWindow):
@@ -156,12 +176,15 @@ class SurfaceApp(QtWidgets.QMainWindow):
         self.surfaces = []
         self.assignments = {}
         self.faces = []
+        self.longitudinal_planes = []
         self.surface_by_face = {}
         self.current_face_index = None
         self.analysis_window = None
 
         self.viewer = ModelViewWindow()
         self.viewer.surface_picked.connect(self.select_surface_from_model)
+        self.viewer.open_model_requested.connect(self.choose_model)
+        self.viewer.analysis_requested.connect(self.show_analysis_window)
         self._build_interface()
         self.open_model(DEFAULT_MODEL)
 
@@ -241,6 +264,7 @@ class SurfaceApp(QtWidgets.QMainWindow):
             model_path = Path(model_path).resolve()
             part = cq.importers.importStep(str(model_path))
             new_surfaces = extract_cylinders_from_part(part)
+            new_longitudinal_planes = extract_longitudinal_planes_from_part(part)
             faces = part.faces().vals()
 
             digest = hashlib.sha256()
@@ -259,6 +283,7 @@ class SurfaceApp(QtWidgets.QMainWindow):
             self.model_path = model_path
             self.model_hash = model_hash
             self.surfaces = new_surfaces
+            self.longitudinal_planes = new_longitudinal_planes
             self.surface_by_face = {item["face_index"]: item for item in self.surfaces}
             self.faces = faces
             self.assignments = self._read_assignments()
@@ -412,7 +437,11 @@ class SurfaceApp(QtWidgets.QMainWindow):
             return
         if self.analysis_window is None or self.analysis_window.model_hash != self.model_hash:
             self.analysis_window = TechnologicalAnalysisWindow(
-                self.model_hash, self.model_path.name, self
+                self.model_hash,
+                self.model_path.name,
+                self,
+                detected_longitudinal_surfaces=self.longitudinal_planes,
+                detected_diametral_surfaces=self.surfaces,
             )
         self.analysis_window.show()
         self.analysis_window.raise_()
@@ -427,7 +456,6 @@ class SurfaceApp(QtWidgets.QMainWindow):
 def main():
     app = QtWidgets.QApplication(sys.argv)
     window = SurfaceApp()
-    window.show()
     window.viewer.show()
     sys.exit(app.exec())
 
