@@ -439,7 +439,7 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 float(surface.get("length", self.length_box.value()))
                 if surface.get("length") else self.length_box.value(),
             )
-            return calculate_operation_route(
+            calculation = calculate_operation_route(
                 operations=operations,
                 final_nominal_mm=float(surface["nominal_mm"]),
                 category=surface["category"],
@@ -451,6 +451,40 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 tolerance_data=self.tolerance_data,
                 linear_direction=int(surface.get("linear_direction", 1)),
             )
+            # Для отверстия сравниваем фактический диаметр CAD-модели с
+            # номиналом и односторонними отклонениями выбранного конечного IT.
+            # Геометрический замер модели не подменяет собой номинал чертежа.
+            if calculation.get("complete") and surface.get("category") == "diametral":
+                actual_diameter = surface.get("diameter")
+                final_stage = operations[-1] if operations else {}
+                final_grade = final_stage.get("grade")
+                if actual_diameter is not None and final_grade is not None:
+                    symbol = "H" if surface.get("surface_type") == "hole" else "h"
+                    nominal = float(surface["nominal_mm"])
+                    tolerance_row = next((item for item in self.tolerance_data
+                        if item.get("deviation_symbol") == symbol
+                        and int(item.get("grade", -1)) == int(final_grade)
+                        and float(item.get("nominal_from", 0)) <= nominal
+                        and nominal < float(item.get("nominal_to", 0))), None)
+                    if tolerance_row:
+                        lower_limit = nominal + float(
+                            tolerance_row.get("lower_deviation_mkm", 0)
+                        ) / 1000.0
+                        upper_limit = nominal + float(
+                            tolerance_row.get("upper_deviation_mkm", 0)
+                        ) / 1000.0
+                        actual_diameter = float(actual_diameter)
+                        calculation["geometry_validation"] = {
+                            "actual_mm": actual_diameter,
+                            "nominal_mm": nominal,
+                            "grade": int(final_grade),
+                            "lower_limit_mm": lower_limit,
+                            "upper_limit_mm": upper_limit,
+                            "within_tolerance": (
+                                lower_limit - 1e-9 <= actual_diameter <= upper_limit + 1e-9
+                            ),
+                        }
+            return calculation
         except (ValueError, KeyError, TypeError) as error:
             return {"complete": False, "message": str(error)}
 
@@ -559,6 +593,17 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                     f"{drill_text} "
                     "Промежуточные размеры показаны в блоках маршрута."
                 )
+                geometry_check = calculation.get("geometry_validation")
+                if geometry_check and not geometry_check["within_tolerance"]:
+                    self.process_status.setText(
+                        self.process_status.text()
+                        + f" ВНИМАНИЕ: фактический диаметр CAD-модели "
+                        f"Ø{geometry_check['actual_mm']:.4f} мм вне поля "
+                        f"IT{geometry_check['grade']} "
+                        f"Ø{geometry_check['nominal_mm']:g} "
+                        f"({geometry_check['lower_limit_mm']:.4f}…"
+                        f"{geometry_check['upper_limit_mm']:.4f} мм)."
+                    )
             else:
                 self.process_status.setText(
                     f"Поверхностей маршрута: {len(sequence)} — заготовка, "
@@ -1050,26 +1095,39 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             count = int(route.get("operation_count", 0))
             process_surface_ids = generated_ids.get(source_key, {})
             target_id = source_surface.get("chain_id")
-            base_id = process_surface_ids.get(1)
-            for number, step in enumerate(calculation.get("steps", []), start=1):
+            final_step = max(
+                calculation.get("steps", []),
+                key=lambda item: int(item["number"]),
+                default=None,
+            )
+            for step in calculation.get("steps", []):
+                number = int(step["number"])
                 before_id = process_surface_ids.get(number)
                 after_id = process_surface_ids.get(number + 1, target_id)
 
                 if not before_id or not after_id:
                     continue
 
-                # Для диаметральной цепи все технологические размеры
-                # отсчитываются от общей поверхности.
-                technology_start_id = (
-                    base_id if chain_key == "diametral" else before_id
-                )
-                technology_end_id = after_id
+                if chain_key == "diametral":
+                    # Промежуточные технологические размеры отсчитываем от цели.
+                    technology_start_id = target_id
 
-                # Припуск соединяет соседние поверхности процесса.
+                    # У последней операции результатом является сама целевая поверхность.
+                    # Чтобы не получить связь target_id → target_id, второй точкой
+                    # берём поверхность перед последней операцией.
+                    technology_end_id = (
+                        after_id if number < count else before_id
+                    )
+                else:
+                    # Продольную цепь оставляем без изменения.
+                    technology_start_id = before_id
+                    technology_end_id = after_id
+
+                # Припуск всегда между соседними этапами процесса.
                 allowance_start_id = before_id
                 allowance_end_id = after_id
 
-                if not technology_start_id:
+                if not technology_start_id or not technology_end_id:
                     continue
                 tolerance_before = step.get("tolerance_before_um")
                 tolerance_after = step.get("tolerance_after_um") or 0.0
@@ -1081,21 +1139,32 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 else:
                     upper_deviation_mm = 0.0
                     lower_deviation_mm = -tol_mm
-                self._add_link(chain_key, {
-                    "label": f"T{number}-{target_id}",
-                    "type": "Технологический размер",
-                    "start": technology_start_id,
-                    "end": technology_end_id,
-                    "nominal_mm": step["technological_size_mm"],
-                    "upper_deviation_mm": upper_deviation_mm,
-                    "lower_deviation_mm": lower_deviation_mm,
-                    "process_meta": {
-                        "route_generated_link": True,
-                        "parent_source_key": source_key,
-                        "operation_number": number,
-                        "link_kind": "technology",
-                    },
-                })
+
+                # Диаметральный технологический размер — это размер состояния
+                # после операции, отсчитанный от общей базы. Продольные цепи
+                # сохраняют прежнее представление.
+                technology_nominal_mm = (
+                    step.get("nominal_after_mm", step["technological_size_mm"])
+                    if chain_key == "diametral"
+                    else step["technological_size_mm"]
+                )
+                if technology_start_id != technology_end_id:
+                    self._add_link(chain_key, {
+                        "label": f"T{number}-{target_id}",
+                        "type": "Технологический размер",
+                        "start": technology_start_id,
+                        "end": technology_end_id,
+                        "nominal_mm": technology_nominal_mm,
+                        "upper_deviation_mm": upper_deviation_mm,
+                        "lower_deviation_mm": lower_deviation_mm,
+                        "process_meta": {
+                            "route_generated_link": True,
+                            "parent_source_key": source_key,
+                            "operation_number": number,
+                            "link_kind": "technology",
+                        },
+                    })
+
                 # У сверления из сплошного материала нет Zmin от отверстия Ø0,
                 # но технологическое значение после сверления показываем.
                 if step.get("minimum_allowance_um") is not None:
@@ -1104,7 +1173,15 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                         "type": "Припуск",
                         "start": allowance_start_id,
                         "end": allowance_end_id,
-                        "nominal_mm": step["minimum_allowance_um"] / 1000.0,
+                        # Номинальный шаг между технологическими состояниями
+                        # равен среднему припуску: именно он задаёт рассчитанный
+                        # номинал поверхности с учётом допусков. Zmin остаётся
+                        # в расчётной таблице операции.
+                        "nominal_mm": (
+                            step.get("mean_allowance_um")
+                            if step.get("mean_allowance_um") is not None
+                            else step["minimum_allowance_um"]
+                        ) / 1000.0,
                         "upper_deviation_mm": 0.0,
                         "lower_deviation_mm": 0.0,
                         "process_meta": {
@@ -1112,6 +1189,40 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                             "parent_source_key": source_key,
                             "operation_number": number,
                             "link_kind": "allowance",
+                            "minimum_allowance_um": step.get("minimum_allowance_um"),
+                            "mean_allowance_um": step.get("mean_allowance_um"),
+                        },
+                    })
+            if chain_key == "diametral" and final_step is not None:
+                final_number = int(final_step["number"])
+                final_before_id = process_surface_ids.get(final_number)
+
+                if final_before_id and target_id:
+                    final_tolerance_um = final_step.get("tolerance_after_um") or 0.0
+                    final_tolerance_mm = final_tolerance_um / 1000.0
+
+                    if source_surface.get("surface_type") == "hole":
+                        design_upper_deviation_mm = final_tolerance_mm
+                        design_lower_deviation_mm = 0.0
+                    else:
+                        design_upper_deviation_mm = 0.0
+                        design_lower_deviation_mm = -final_tolerance_mm
+
+                    self._add_link(chain_key, {
+                        "label": f"К-{target_id}",
+                        "type": "Конструкторский размер",
+                        "start": target_id,
+                        "end": final_before_id,
+                        "nominal_mm": final_step.get(
+                            "nominal_after_mm", source_surface["nominal_mm"]
+                        ),
+                        "upper_deviation_mm": design_upper_deviation_mm,
+                        "lower_deviation_mm": design_lower_deviation_mm,
+                        "process_meta": {
+                            "route_generated_link": True,
+                            "parent_source_key": source_key,
+                            "operation_number": final_number,
+                            "link_kind": "design",
                         },
                     })
 
@@ -1207,6 +1318,149 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         status = editor["status"]
         surfaces, links = self._read_chain(chain_key)
         ids = [item["id"] for item in surfaces]
+        graph_surfaces = list(surfaces)
+        graph_links = [dict(link) for link in links]
+        generated_by_source = {}
+        for surface in surfaces:
+            metadata = surface.get("process_meta") or {}
+            if metadata.get("route_generated"):
+                source_key = metadata.get("parent_source_key")
+                operation_number = int(metadata.get("operation_number", 0))
+                generated_by_source.setdefault(source_key, {})[operation_number] = surface["id"]
+
+        virtual_by_source = {}
+        if chain_key == "diametral":
+            # Отдельная графическая точка представляет конечный размер K=Tn.
+            # Она нужна, чтобы Z последней операции соединял эту точку
+            # с поверхностью перед последней операцией.
+            for source_key, source_surface in self._detected_chain_surfaces.items():
+                if source_surface.get("category") != "diametral":
+                    continue
+                target_id = source_surface.get("chain_id")
+                route = self.processing_routes.get(source_key, {})
+                operation_count = int(route.get("operation_count", 0))
+                generated = generated_by_source.get(source_key, {})
+                final_before_id = generated.get(operation_count)
+                if (
+                    not target_id or target_id not in ids
+                    or operation_count < 1 or not final_before_id
+                ):
+                    continue
+
+                calculation = route.get("calculation", {})
+                steps_by_number = {
+                    int(step.get("number", 0)): step
+                    for step in calculation.get("steps", [])
+                }
+                final_step = steps_by_number.get(operation_count, {})
+                final_nominal_mm = float(final_step.get(
+                    "nominal_after_mm", source_surface.get("nominal_mm", 0.0)
+                ))
+
+                virtual_id = f"__final_dimension__{source_key}"
+                virtual_by_source[source_key] = virtual_id
+                graph_surfaces.append({
+                    "id": virtual_id,
+                    "display_id": f"K/T{operation_count}",
+                    "description": (
+                        f"Расчётная точка конечного размера "
+                        f"Ø{final_nominal_mm:.4f} мм"
+                    ),
+                    "nominal_mm": final_nominal_mm,
+                    "process_meta": {"virtual_process_point": True},
+                })
+
+                for link in graph_links:
+                    metadata = link.get("process_meta") or {}
+                    if (
+                        not metadata.get("route_generated_link")
+                        or metadata.get("parent_source_key") != source_key
+                    ):
+                        continue
+
+                    number = int(metadata.get("operation_number", 0))
+                    kind = metadata.get("link_kind")
+                    step = steps_by_number.get(number, {})
+
+                    if kind == "design":
+                        link["start"] = target_id
+                        link["end"] = virtual_id
+                        link["nominal_mm"] = final_nominal_mm
+                    elif kind == "technology":
+                        if step.get("creates_hole_from_solid"):
+                            # Сверление создаёт отверстие в сплошной заготовке:
+                            # технологическая связь идёт от состояния Ø0 к
+                            # конечному отверстию, но припуск Z не создаётся.
+                            link["start"] = generated.get(1, link["start"])
+                            link["end"] = virtual_id
+                            link["nominal_mm"] = final_nominal_mm
+                        else:
+                            link["start"] = target_id
+                        if number == operation_count:
+                            link["end"] = virtual_id
+                            link["nominal_mm"] = final_nominal_mm
+                        elif not step.get("creates_hole_from_solid"):
+                            link["end"] = generated.get(number + 1, link["end"])
+                            if step.get("nominal_after_mm") is not None:
+                                link["nominal_mm"] = float(step["nominal_after_mm"])
+                    elif kind == "allowance":
+                        if number == operation_count:
+                            link["start"] = virtual_id
+                            link["end"] = final_before_id
+                        else:
+                            link["start"] = generated.get(number, link["start"])
+                            link["end"] = generated.get(number + 1, link["end"])
+                        if step.get("mean_allowance_um") is not None:
+                            link["nominal_mm"] = abs(
+                                float(step["mean_allowance_um"])
+                            ) / 1000.0
+                            minimum_um = step.get("minimum_allowance_um")
+                            if minimum_um is not None:
+                                link["display_label"] = (
+                                    f"{link['label']} (Zmin "
+                                    f"{float(minimum_um) / 1000.0:g})"
+                                )
+
+        ordered_ids = []
+
+        # Для каждой целевой поверхности сначала ставим её,
+        # затем промежуточные состояния от готовой детали к заготовке.
+        for source_key, source_surface in self._detected_chain_surfaces.items():
+            if source_surface.get("category") != chain_key:
+                continue
+
+            target_id = source_surface.get("chain_id")
+            if target_id in ids and target_id not in ordered_ids:
+                ordered_ids.append(target_id)
+            virtual_id = virtual_by_source.get(source_key)
+            if virtual_id and virtual_id not in ordered_ids:
+                ordered_ids.append(virtual_id)
+
+            generated = []
+            for surface in surfaces:
+                metadata = surface.get("process_meta") or {}
+                if (
+                        metadata.get("route_generated")
+                        and metadata.get("parent_source_key") == source_key
+                ):
+                    generated.append((
+                        int(metadata.get("operation_number", 0)),
+                        surface["id"],
+                    ))
+
+            # Tn — состояние после предпоследней операции,
+            # T1 — заготовка; поэтому сортируем по убыванию.
+            generated.sort(reverse=True)
+            ordered_ids.extend(
+                surface_id
+                for _, surface_id in generated
+                if surface_id in ids and surface_id not in ordered_ids
+            )
+
+        # Сохраняем в схеме остальные поверхности, если они есть.
+        ordered_ids.extend(surface_id for surface_id in ids if surface_id not in ordered_ids)
+
+        ids = ordered_ids
         index = {value: position for position, value in enumerate(ids)}
         scene.clear()
         if not ids:
@@ -1214,7 +1468,7 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             status.setText("Добавьте поверхности и связи.")
             return
         valid_links = [
-            link for link in links
+            link for link in graph_links
             if link["start"] in index
             and link["end"] in index
             and link["start"] != link["end"]
@@ -1225,14 +1479,19 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         description_width = gap - 20
         node_positions = {value: (x0 + i * gap, y0) for i, value in enumerate(ids)}
         pen_node = QtGui.QPen(QtGui.QColor("#20354a"), 2)
-        for surface in surfaces:
+        for surface in graph_surfaces:
             x, y = node_positions[surface["id"]]
             node_pen = QtGui.QPen(QtGui.QColor("#20354a"), 2)
             metadata = surface.get("process_meta", {})
-            node_color = "#fce4c7" if metadata.get("route_generated") else "#dcecff"
+            if metadata.get("virtual_process_point"):
+                node_color = "#eadcf8"
+            elif metadata.get("route_generated"):
+                node_color = "#fce4c7"
+            else:
+                node_color = "#dcecff"
             node_brush = QtGui.QBrush(QtGui.QColor(node_color))
             scene.addEllipse(x - 20, y - 20, 40, 40, node_pen, node_brush)
-            label = scene.addText(surface["id"])
+            label = scene.addText(surface.get("display_id", surface["id"]))
             label.setPos(x - label.boundingRect().width() / 2, y - 10)
             if surface["description"]:
                 desc = scene.addText(surface["description"])
@@ -1274,7 +1533,8 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 scene.addPath(path, pen)
             else:
                 scene.addLine(x1, y, x2, y, pen)
-            text = (f"{link['label']}  {link['nominal_mm']:g} "
+            text = (f"{link.get('display_label', link['label'])}  "
+                    f"{link['nominal_mm']:g} "
                     f"({link['upper_deviation_mm']:+g}; {link['lower_deviation_mm']:+g}) мм")
             label = scene.addText(text)
             label.setDefaultTextColor(color)

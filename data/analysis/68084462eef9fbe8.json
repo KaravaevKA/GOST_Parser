@@ -372,7 +372,7 @@
         "kind": "rotational",
         "direction": 1,
         "final_nominal_mm": 29.0,
-        "stock_nominal_mm": 30.127460000000003,
+        "stock_nominal_mm": 31.586,
         "stock_state": "machined_blank",
         "drill_diameter_mm": null,
         "drill_diameter_catalog_mm": null,
@@ -391,14 +391,14 @@
             "minimum_allowance_um": 600.0,
             "grade_before": 17,
             "creates_hole_from_solid": false,
-            "nominal_before_mm": 30.127460000000003,
-            "nominal_after_mm": 29.526105,
-            "technological_size_mm": 29.526105,
-            "size_change_mm": 0.6013550000000016,
-            "mean_allowance_um": 601.3550000000016,
-            "tolerance_before_um": 2.5,
-            "tolerance_after_um": 0.21,
-            "tolerance_after_mm": 0.00020999999999999998
+            "nominal_before_mm": 31.586,
+            "nominal_after_mm": 29.631,
+            "technological_size_mm": 29.631,
+            "size_change_mm": 1.9549999999999983,
+            "mean_allowance_um": 1954.9999999999982,
+            "tolerance_before_um": 2500.0,
+            "tolerance_after_um": 210.0,
+            "tolerance_after_mm": 0.21
           },
           {
             "number": 2,
@@ -414,19 +414,19 @@
             "minimum_allowance_um": 500.0,
             "grade_before": 12,
             "creates_hole_from_solid": false,
-            "nominal_before_mm": 29.526105,
+            "nominal_before_mm": 29.631,
             "nominal_after_mm": 29.0,
             "technological_size_mm": 29.0,
-            "size_change_mm": 0.5261050000000012,
-            "mean_allowance_um": 526.1050000000012,
-            "tolerance_before_um": 0.21,
+            "size_change_mm": 0.6310000000000002,
+            "mean_allowance_um": 631.0000000000002,
+            "tolerance_before_um": 210.0,
             "tolerance_after_um": 52.0,
             "tolerance_after_mm": 0.052
           }
         ],
         "intermediate_nominals_mm": [
-          30.127460000000003,
-          29.526105
+          31.586,
+          29.631
         ]
       }
     },
@@ -458,7 +458,7 @@
         "kind": "rotational",
         "direction": 1,
         "final_nominal_mm": 46.0,
-        "stock_nominal_mm": 47.396,
+        "stock_nominal_mm": 48.8945,
         "stock_state": "machined_blank",
         "drill_diameter_mm": null,
         "drill_diameter_catalog_mm": null,
@@ -477,14 +477,14 @@
             "minimum_allowance_um": 600.0,
             "grade_before": 17,
             "creates_hole_from_solid": false,
-            "nominal_before_mm": 47.396,
-            "nominal_after_mm": 46.794625,
-            "technological_size_mm": 46.794625,
-            "size_change_mm": 0.6013749999999973,
-            "mean_allowance_um": 601.3749999999973,
-            "tolerance_before_um": 2.5,
-            "tolerance_after_um": 0.25,
-            "tolerance_after_mm": 0.00025
+            "nominal_before_mm": 48.8945,
+            "nominal_after_mm": 46.9195,
+            "technological_size_mm": 46.9195,
+            "size_change_mm": 1.9750000000000014,
+            "mean_allowance_um": 1975.0000000000014,
+            "tolerance_before_um": 2500.0,
+            "tolerance_after_um": 250.0,
+            "tolerance_after_mm": 0.25
           },
           {
             "number": 2,
@@ -500,12 +500,12 @@
             "minimum_allowance_um": 500.0,
             "grade_before": 12,
             "creates_hole_from_solid": false,
-            "nominal_before_mm": 46.794625,
+            "nominal_before_mm": 46.9195,
             "nominal_after_mm": 46.2635,
             "technological_size_mm": 46.2635,
-            "size_change_mm": 0.531125000000003,
-            "mean_allowance_um": 531.125000000003,
-            "tolerance_before_um": 0.25,
+            "size_change_mm": 0.6559999999999988,
+            "mean_allowance_um": 655.9999999999989,
+            "tolerance_before_um": 250.0,
             "tolerance_after_um": 62.0,
             "tolerance_after_mm": 0.062
           },
@@ -534,8 +534,8 @@
           }
         ],
         "intermediate_nominals_mm": [
-          47.396,
-          46.794625,
+          48.8945,
+          46.9195,
           46.2635
         ]
       }
@@ -609,30 +609,30 @@
     },
     {
       "id": "D2-T1",
-      "description": "Авто: Заготовка перед оп. 1; Ø30.1275 мм, IT17",
+      "description": "Авто: Заготовка перед оп. 1; Ø31.5860 мм, IT17",
       "process_meta": {
         "category": "diametral",
         "grade": 17,
-        "nominal_mm": 30.127460000000003,
+        "nominal_mm": 31.586,
         "operation": "Заготовка",
         "operation_number": 1,
         "parent_source_key": "diametral:face:2",
         "route_generated": true,
-        "tolerance_after_mm": 0.0025
+        "tolerance_after_mm": 2.5
       }
     },
     {
       "id": "D2-T2",
-      "description": "Авто: после оп. 1 — Черновое точение; Ø29.5261 мм, IT12",
+      "description": "Авто: после оп. 1 — Черновое точение; Ø29.6310 мм, IT12",
       "process_meta": {
         "category": "diametral",
         "grade": 12,
-        "nominal_mm": 29.526105,
+        "nominal_mm": 29.631,
         "operation": "Черновое точение",
         "operation_number": 2,
         "parent_source_key": "diametral:face:2",
         "route_generated": true,
-        "tolerance_after_mm": 0.00020999999999999998
+        "tolerance_after_mm": 0.21
       }
     },
     {
@@ -652,30 +652,30 @@
     },
     {
       "id": "D3-T1",
-      "description": "Авто: Заготовка перед оп. 1; Ø47.3960 мм, IT17",
+      "description": "Авто: Заготовка перед оп. 1; Ø48.8945 мм, IT17",
       "process_meta": {
         "category": "diametral",
         "grade": 17,
-        "nominal_mm": 47.396,
+        "nominal_mm": 48.8945,
         "operation": "Заготовка",
         "operation_number": 1,
         "parent_source_key": "diametral:face:5",
         "route_generated": true,
-        "tolerance_after_mm": 0.0025
+        "tolerance_after_mm": 2.5
       }
     },
     {
       "id": "D3-T2",
-      "description": "Авто: после оп. 1 — Черновое точение; Ø46.7946 мм, IT12",
+      "description": "Авто: после оп. 1 — Черновое точение; Ø46.9195 мм, IT12",
       "process_meta": {
         "category": "diametral",
         "grade": 12,
-        "nominal_mm": 46.794625,
+        "nominal_mm": 46.9195,
         "operation": "Черновое точение",
         "operation_number": 2,
         "parent_source_key": "diametral:face:5",
         "route_generated": true,
-        "tolerance_after_mm": 0.00025
+        "tolerance_after_mm": 0.25
       }
     },
     {
@@ -712,11 +712,11 @@
     {
       "label": "T1-D1",
       "type": "Технологический размер",
-      "start": "D1-T1",
-      "end": "D1",
+      "start": "D1",
+      "end": "D1-T1",
       "nominal_mm": 10.0,
-      "upper_deviation_mm": 0.055,
-      "lower_deviation_mm": -0.055,
+      "upper_deviation_mm": 0.11,
+      "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 1,
@@ -725,13 +725,28 @@
       }
     },
     {
+      "label": "К-D1",
+      "type": "Конструкторский размер",
+      "start": "D1",
+      "end": "D1-T1",
+      "nominal_mm": 10.0,
+      "upper_deviation_mm": 0.11,
+      "lower_deviation_mm": 0.0,
+      "process_meta": {
+        "link_kind": "design",
+        "operation_number": 1,
+        "parent_source_key": "diametral:face:1",
+        "route_generated_link": true
+      }
+    },
+    {
       "label": "T1-D2",
       "type": "Технологический размер",
-      "start": "D2-T1",
+      "start": "D2",
       "end": "D2-T2",
-      "nominal_mm": 29.5261,
-      "upper_deviation_mm": 0.0014,
-      "lower_deviation_mm": -0.0014,
+      "nominal_mm": 29.631,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.21,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 1,
@@ -744,11 +759,13 @@
       "type": "Припуск",
       "start": "D2-T1",
       "end": "D2-T2",
-      "nominal_mm": 0.6,
+      "nominal_mm": 1.955,
       "upper_deviation_mm": 0.0,
       "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "allowance",
+        "mean_allowance_um": 1954.9999999999982,
+        "minimum_allowance_um": 600.0,
         "operation_number": 1,
         "parent_source_key": "diametral:face:2",
         "route_generated_link": true
@@ -757,11 +774,11 @@
     {
       "label": "T2-D2",
       "type": "Технологический размер",
-      "start": "D2-T2",
-      "end": "D2",
+      "start": "D2",
+      "end": "D2-T2",
       "nominal_mm": 29.0,
-      "upper_deviation_mm": 0.0261,
-      "lower_deviation_mm": -0.0261,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.052,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 2,
@@ -774,11 +791,28 @@
       "type": "Припуск",
       "start": "D2-T2",
       "end": "D2",
-      "nominal_mm": 0.5,
+      "nominal_mm": 0.631,
       "upper_deviation_mm": 0.0,
       "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "allowance",
+        "mean_allowance_um": 631.0000000000002,
+        "minimum_allowance_um": 500.0,
+        "operation_number": 2,
+        "parent_source_key": "diametral:face:2",
+        "route_generated_link": true
+      }
+    },
+    {
+      "label": "К-D2",
+      "type": "Конструкторский размер",
+      "start": "D2",
+      "end": "D2-T2",
+      "nominal_mm": 29.0,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.052,
+      "process_meta": {
+        "link_kind": "design",
         "operation_number": 2,
         "parent_source_key": "diametral:face:2",
         "route_generated_link": true
@@ -787,11 +821,11 @@
     {
       "label": "T1-D3",
       "type": "Технологический размер",
-      "start": "D3-T1",
+      "start": "D3",
       "end": "D3-T2",
-      "nominal_mm": 46.7946,
-      "upper_deviation_mm": 0.0014,
-      "lower_deviation_mm": -0.0014,
+      "nominal_mm": 46.9195,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.25,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 1,
@@ -804,11 +838,13 @@
       "type": "Припуск",
       "start": "D3-T1",
       "end": "D3-T2",
-      "nominal_mm": 0.6,
+      "nominal_mm": 1.975,
       "upper_deviation_mm": 0.0,
       "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "allowance",
+        "mean_allowance_um": 1975.0000000000014,
+        "minimum_allowance_um": 600.0,
         "operation_number": 1,
         "parent_source_key": "diametral:face:5",
         "route_generated_link": true
@@ -817,11 +853,11 @@
     {
       "label": "T2-D3",
       "type": "Технологический размер",
-      "start": "D3-T2",
+      "start": "D3",
       "end": "D3-T3",
       "nominal_mm": 46.2635,
-      "upper_deviation_mm": 0.0311,
-      "lower_deviation_mm": -0.0311,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.062,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 2,
@@ -834,11 +870,13 @@
       "type": "Припуск",
       "start": "D3-T2",
       "end": "D3-T3",
-      "nominal_mm": 0.5,
+      "nominal_mm": 0.656,
       "upper_deviation_mm": 0.0,
       "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "allowance",
+        "mean_allowance_um": 655.9999999999989,
+        "minimum_allowance_um": 500.0,
         "operation_number": 2,
         "parent_source_key": "diametral:face:5",
         "route_generated_link": true
@@ -847,11 +885,11 @@
     {
       "label": "T3-D3",
       "type": "Технологический размер",
-      "start": "D3-T3",
-      "end": "D3",
+      "start": "D3",
+      "end": "D3-T3",
       "nominal_mm": 46.0,
-      "upper_deviation_mm": 0.0435,
-      "lower_deviation_mm": -0.0435,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.025,
       "process_meta": {
         "link_kind": "technology",
         "operation_number": 3,
@@ -864,11 +902,28 @@
       "type": "Припуск",
       "start": "D3-T3",
       "end": "D3",
-      "nominal_mm": 0.22,
+      "nominal_mm": 0.2635,
       "upper_deviation_mm": 0.0,
       "lower_deviation_mm": 0.0,
       "process_meta": {
         "link_kind": "allowance",
+        "mean_allowance_um": 263.5000000000005,
+        "minimum_allowance_um": 220.0,
+        "operation_number": 3,
+        "parent_source_key": "diametral:face:5",
+        "route_generated_link": true
+      }
+    },
+    {
+      "label": "К-D3",
+      "type": "Конструкторский размер",
+      "start": "D3",
+      "end": "D3-T3",
+      "nominal_mm": 46.0,
+      "upper_deviation_mm": 0.0,
+      "lower_deviation_mm": -0.025,
+      "process_meta": {
+        "link_kind": "design",
         "operation_number": 3,
         "parent_source_key": "diametral:face:5",
         "route_generated_link": true

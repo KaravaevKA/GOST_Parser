@@ -150,7 +150,12 @@ def build_operation_surfaces(surface: dict, route: dict) -> list[dict]:
     generated = []
     calculation = route.get("calculation", {})
     calculated_steps = calculation.get("steps", []) if calculation.get("complete") else []
+    steps_by_number = {
+        int(step.get("number", index)): step
+        for index, step in enumerate(calculated_steps, start=1)
+    }
     for number, stage in enumerate(operations, start=1):
+        step_data = steps_by_number.get(number)
         if number == 1:
             operation = "Заготовка"
             grade = route.get("stock_grade")
@@ -161,8 +166,8 @@ def build_operation_surfaces(surface: dict, route: dict) -> list[dict]:
             grade = previous_stage.get("grade")
             description = f"Авто: после оп. {number - 1} — {operation}"
         grade_label = f", IT{grade}" if grade is not None else ""
-        if calculated_steps:
-            nominal = calculated_steps[number - 1]["nominal_before_mm"]
+        if step_data:
+            nominal = step_data["nominal_before_mm"]
             value_label = (
                 f"Ø{nominal:.4f} мм" if category == "diametral"
                 else f"A={nominal:.4f} мм"
@@ -179,12 +184,10 @@ def build_operation_surfaces(surface: dict, route: dict) -> list[dict]:
                 "category": category,
                 "operation": operation,
                 "grade": grade,
-                "nominal_mm": calculated_steps[number - 1]["nominal_before_mm"]
-                    if calculated_steps else None,
+                "nominal_mm": step_data.get("nominal_before_mm") if step_data else None,
                 "tolerance_after_mm": (
-                    calculated_steps[number - 1].get("tolerance_before_um") / 1000.0
-                    if calculated_steps
-                    and calculated_steps[number - 1].get("tolerance_before_um") is not None
+                    step_data.get("tolerance_before_um") / 1000.0
+                    if step_data and step_data.get("tolerance_before_um") is not None
                     else None
                 ),
             },
