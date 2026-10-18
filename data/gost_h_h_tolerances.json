@@ -226,7 +226,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 12,
-    "upper_deviation_mkm": 0.1,
+    "upper_deviation_mkm": 100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -237,7 +237,7 @@
     "nominal_to": 3,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.1
+    "lower_deviation_mkm": -100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -246,7 +246,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 13,
-    "upper_deviation_mkm": 0.14,
+    "upper_deviation_mkm": 140.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -257,7 +257,7 @@
     "nominal_to": 3,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.14
+    "lower_deviation_mkm": -140.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -266,7 +266,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 14,
-    "upper_deviation_mkm": 0.25,
+    "upper_deviation_mkm": 250.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -277,7 +277,7 @@
     "nominal_to": 3,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.25
+    "lower_deviation_mkm": -250.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -286,7 +286,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 15,
-    "upper_deviation_mkm": 0.4,
+    "upper_deviation_mkm": 400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -297,7 +297,7 @@
     "nominal_to": 3,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.4
+    "lower_deviation_mkm": -400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -306,7 +306,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 16,
-    "upper_deviation_mkm": 0.6,
+    "upper_deviation_mkm": 600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -317,7 +317,7 @@
     "nominal_to": 3,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.6
+    "lower_deviation_mkm": -600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -326,7 +326,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 17,
-    "upper_deviation_mkm": 1,
+    "upper_deviation_mkm": 1000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -337,7 +337,7 @@
     "nominal_to": 3,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1
+    "lower_deviation_mkm": -1000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -346,7 +346,7 @@
     "nominal_from": 0,
     "nominal_to": 3,
     "grade": 18,
-    "upper_deviation_mkm": 1.4,
+    "upper_deviation_mkm": 1400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -357,7 +357,7 @@
     "nominal_to": 3,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.4
+    "lower_deviation_mkm": -1400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -586,7 +586,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 12,
-    "upper_deviation_mkm": 0.12,
+    "upper_deviation_mkm": 120.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -597,7 +597,7 @@
     "nominal_to": 6,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.12
+    "lower_deviation_mkm": -120.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -606,7 +606,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 13,
-    "upper_deviation_mkm": 0.18,
+    "upper_deviation_mkm": 180.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -617,7 +617,7 @@
     "nominal_to": 6,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.18
+    "lower_deviation_mkm": -180.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -626,7 +626,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 14,
-    "upper_deviation_mkm": 0.3,
+    "upper_deviation_mkm": 300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -637,7 +637,7 @@
     "nominal_to": 6,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.3
+    "lower_deviation_mkm": -300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -646,7 +646,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 15,
-    "upper_deviation_mkm": 0.48,
+    "upper_deviation_mkm": 480.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -657,7 +657,7 @@
     "nominal_to": 6,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.48
+    "lower_deviation_mkm": -480.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -666,7 +666,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 16,
-    "upper_deviation_mkm": 0.75,
+    "upper_deviation_mkm": 750.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -677,7 +677,7 @@
     "nominal_to": 6,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.75
+    "lower_deviation_mkm": -750.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -686,7 +686,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 17,
-    "upper_deviation_mkm": 1.2,
+    "upper_deviation_mkm": 1200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -697,7 +697,7 @@
     "nominal_to": 6,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.2
+    "lower_deviation_mkm": -1200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -706,7 +706,7 @@
     "nominal_from": 3,
     "nominal_to": 6,
     "grade": 18,
-    "upper_deviation_mkm": 1.8,
+    "upper_deviation_mkm": 1800.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -717,7 +717,7 @@
     "nominal_to": 6,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.8
+    "lower_deviation_mkm": -1800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -946,7 +946,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 12,
-    "upper_deviation_mkm": 0.15,
+    "upper_deviation_mkm": 150.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -957,7 +957,7 @@
     "nominal_to": 10,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.15
+    "lower_deviation_mkm": -150.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -966,7 +966,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 13,
-    "upper_deviation_mkm": 0.22,
+    "upper_deviation_mkm": 220.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -977,7 +977,7 @@
     "nominal_to": 10,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.22
+    "lower_deviation_mkm": -220.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -986,7 +986,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 14,
-    "upper_deviation_mkm": 0.36,
+    "upper_deviation_mkm": 360.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -997,7 +997,7 @@
     "nominal_to": 10,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.36
+    "lower_deviation_mkm": -360.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1006,7 +1006,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 15,
-    "upper_deviation_mkm": 0.58,
+    "upper_deviation_mkm": 580.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1017,7 +1017,7 @@
     "nominal_to": 10,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.58
+    "lower_deviation_mkm": -580.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1026,7 +1026,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 16,
-    "upper_deviation_mkm": 0.9,
+    "upper_deviation_mkm": 900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1037,7 +1037,7 @@
     "nominal_to": 10,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.9
+    "lower_deviation_mkm": -900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1046,7 +1046,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 17,
-    "upper_deviation_mkm": 1.5,
+    "upper_deviation_mkm": 1500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1057,7 +1057,7 @@
     "nominal_to": 10,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.5
+    "lower_deviation_mkm": -1500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1066,7 +1066,7 @@
     "nominal_from": 6,
     "nominal_to": 10,
     "grade": 18,
-    "upper_deviation_mkm": 2.2,
+    "upper_deviation_mkm": 2200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1077,7 +1077,7 @@
     "nominal_to": 10,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.2
+    "lower_deviation_mkm": -2200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1317,7 +1317,7 @@
     "nominal_to": 18,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.18
+    "lower_deviation_mkm": -180.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1337,7 +1337,7 @@
     "nominal_to": 18,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.27
+    "lower_deviation_mkm": -270.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1357,7 +1357,7 @@
     "nominal_to": 18,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.43
+    "lower_deviation_mkm": -430.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1377,7 +1377,7 @@
     "nominal_to": 18,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.7
+    "lower_deviation_mkm": -700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1397,7 +1397,7 @@
     "nominal_to": 18,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.1
+    "lower_deviation_mkm": -1100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1417,7 +1417,7 @@
     "nominal_to": 18,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.8
+    "lower_deviation_mkm": -1800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1437,7 +1437,7 @@
     "nominal_to": 18,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.7
+    "lower_deviation_mkm": -2700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1666,7 +1666,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 12,
-    "upper_deviation_mkm": 0.21,
+    "upper_deviation_mkm": 210.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1677,7 +1677,7 @@
     "nominal_to": 30,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.21
+    "lower_deviation_mkm": -210.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1686,7 +1686,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 13,
-    "upper_deviation_mkm": 0.33,
+    "upper_deviation_mkm": 330.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1697,7 +1697,7 @@
     "nominal_to": 30,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.33
+    "lower_deviation_mkm": -330.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1706,7 +1706,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 14,
-    "upper_deviation_mkm": 0.52,
+    "upper_deviation_mkm": 520.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1717,7 +1717,7 @@
     "nominal_to": 30,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.52
+    "lower_deviation_mkm": -520.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1726,7 +1726,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 15,
-    "upper_deviation_mkm": 0.84,
+    "upper_deviation_mkm": 840.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1737,7 +1737,7 @@
     "nominal_to": 30,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.84
+    "lower_deviation_mkm": -840.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1746,7 +1746,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 16,
-    "upper_deviation_mkm": 1.3,
+    "upper_deviation_mkm": 1300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1757,7 +1757,7 @@
     "nominal_to": 30,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.3
+    "lower_deviation_mkm": -1300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1766,7 +1766,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 17,
-    "upper_deviation_mkm": 2.1,
+    "upper_deviation_mkm": 2100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1777,7 +1777,7 @@
     "nominal_to": 30,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.1
+    "lower_deviation_mkm": -2100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -1786,7 +1786,7 @@
     "nominal_from": 18,
     "nominal_to": 30,
     "grade": 18,
-    "upper_deviation_mkm": 3.3,
+    "upper_deviation_mkm": 3300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -1797,7 +1797,7 @@
     "nominal_to": 30,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.3
+    "lower_deviation_mkm": -3300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2026,7 +2026,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 12,
-    "upper_deviation_mkm": 0.25,
+    "upper_deviation_mkm": 250.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2037,7 +2037,7 @@
     "nominal_to": 50,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.25
+    "lower_deviation_mkm": -250.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2046,7 +2046,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 13,
-    "upper_deviation_mkm": 0.39,
+    "upper_deviation_mkm": 390.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2057,7 +2057,7 @@
     "nominal_to": 50,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.39
+    "lower_deviation_mkm": -390.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2066,7 +2066,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 14,
-    "upper_deviation_mkm": 0.62,
+    "upper_deviation_mkm": 620.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2077,7 +2077,7 @@
     "nominal_to": 50,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.62
+    "lower_deviation_mkm": -620.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2086,7 +2086,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 15,
-    "upper_deviation_mkm": 1,
+    "upper_deviation_mkm": 1000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2097,7 +2097,7 @@
     "nominal_to": 50,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1
+    "lower_deviation_mkm": -1000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2106,7 +2106,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 16,
-    "upper_deviation_mkm": 1.6,
+    "upper_deviation_mkm": 1600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2117,7 +2117,7 @@
     "nominal_to": 50,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.6
+    "lower_deviation_mkm": -1600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2126,7 +2126,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 17,
-    "upper_deviation_mkm": 2.5,
+    "upper_deviation_mkm": 2500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2137,7 +2137,7 @@
     "nominal_to": 50,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.5
+    "lower_deviation_mkm": -2500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2146,7 +2146,7 @@
     "nominal_from": 30,
     "nominal_to": 50,
     "grade": 18,
-    "upper_deviation_mkm": 3.9,
+    "upper_deviation_mkm": 3900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2157,7 +2157,7 @@
     "nominal_to": 50,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.9
+    "lower_deviation_mkm": -3900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2386,7 +2386,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 12,
-    "upper_deviation_mkm": 0.3,
+    "upper_deviation_mkm": 300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2397,7 +2397,7 @@
     "nominal_to": 80,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.3
+    "lower_deviation_mkm": -300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2406,7 +2406,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 13,
-    "upper_deviation_mkm": 0.46,
+    "upper_deviation_mkm": 460.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2417,7 +2417,7 @@
     "nominal_to": 80,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.46
+    "lower_deviation_mkm": -460.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2426,7 +2426,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 14,
-    "upper_deviation_mkm": 0.74,
+    "upper_deviation_mkm": 740.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2437,7 +2437,7 @@
     "nominal_to": 80,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.74
+    "lower_deviation_mkm": -740.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2446,7 +2446,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 15,
-    "upper_deviation_mkm": 1.2,
+    "upper_deviation_mkm": 1200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2457,7 +2457,7 @@
     "nominal_to": 80,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.2
+    "lower_deviation_mkm": -1200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2466,7 +2466,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 16,
-    "upper_deviation_mkm": 1.9,
+    "upper_deviation_mkm": 1900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2477,7 +2477,7 @@
     "nominal_to": 80,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.9
+    "lower_deviation_mkm": -1900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2486,7 +2486,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 17,
-    "upper_deviation_mkm": 3,
+    "upper_deviation_mkm": 3000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2497,7 +2497,7 @@
     "nominal_to": 80,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3
+    "lower_deviation_mkm": -3000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2506,7 +2506,7 @@
     "nominal_from": 50,
     "nominal_to": 80,
     "grade": 18,
-    "upper_deviation_mkm": 4.6,
+    "upper_deviation_mkm": 4600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2517,7 +2517,7 @@
     "nominal_to": 80,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4.6
+    "lower_deviation_mkm": -4600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2746,7 +2746,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 12,
-    "upper_deviation_mkm": 0.35,
+    "upper_deviation_mkm": 350.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2757,7 +2757,7 @@
     "nominal_to": 120,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.35
+    "lower_deviation_mkm": -350.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2766,7 +2766,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 13,
-    "upper_deviation_mkm": 0.54,
+    "upper_deviation_mkm": 540.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2777,7 +2777,7 @@
     "nominal_to": 120,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.54
+    "lower_deviation_mkm": -540.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2786,7 +2786,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 14,
-    "upper_deviation_mkm": 0.87,
+    "upper_deviation_mkm": 870.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2797,7 +2797,7 @@
     "nominal_to": 120,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.87
+    "lower_deviation_mkm": -870.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2806,7 +2806,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 15,
-    "upper_deviation_mkm": 1.4,
+    "upper_deviation_mkm": 1400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2817,7 +2817,7 @@
     "nominal_to": 120,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.4
+    "lower_deviation_mkm": -1400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2826,7 +2826,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 16,
-    "upper_deviation_mkm": 2.2,
+    "upper_deviation_mkm": 2200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2837,7 +2837,7 @@
     "nominal_to": 120,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.2
+    "lower_deviation_mkm": -2200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2846,7 +2846,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 17,
-    "upper_deviation_mkm": 3.5,
+    "upper_deviation_mkm": 3500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2857,7 +2857,7 @@
     "nominal_to": 120,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.5
+    "lower_deviation_mkm": -3500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -2866,7 +2866,7 @@
     "nominal_from": 80,
     "nominal_to": 120,
     "grade": 18,
-    "upper_deviation_mkm": 5.4,
+    "upper_deviation_mkm": 5400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -2877,7 +2877,7 @@
     "nominal_to": 120,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5.4
+    "lower_deviation_mkm": -5400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3106,7 +3106,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 12,
-    "upper_deviation_mkm": 0.4,
+    "upper_deviation_mkm": 400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3117,7 +3117,7 @@
     "nominal_to": 180,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.4
+    "lower_deviation_mkm": -400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3126,7 +3126,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 13,
-    "upper_deviation_mkm": 0.63,
+    "upper_deviation_mkm": 630.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3137,7 +3137,7 @@
     "nominal_to": 180,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.63
+    "lower_deviation_mkm": -630.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3146,7 +3146,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 14,
-    "upper_deviation_mkm": 1,
+    "upper_deviation_mkm": 1000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3157,7 +3157,7 @@
     "nominal_to": 180,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1
+    "lower_deviation_mkm": -1000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3166,7 +3166,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 15,
-    "upper_deviation_mkm": 1.6,
+    "upper_deviation_mkm": 1600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3177,7 +3177,7 @@
     "nominal_to": 180,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.6
+    "lower_deviation_mkm": -1600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3186,7 +3186,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 16,
-    "upper_deviation_mkm": 2.5,
+    "upper_deviation_mkm": 2500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3197,7 +3197,7 @@
     "nominal_to": 180,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.5
+    "lower_deviation_mkm": -2500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3206,7 +3206,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 17,
-    "upper_deviation_mkm": 4,
+    "upper_deviation_mkm": 4000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3217,7 +3217,7 @@
     "nominal_to": 180,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4
+    "lower_deviation_mkm": -4000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3226,7 +3226,7 @@
     "nominal_from": 120,
     "nominal_to": 180,
     "grade": 18,
-    "upper_deviation_mkm": 6.3,
+    "upper_deviation_mkm": 6300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3237,7 +3237,7 @@
     "nominal_to": 180,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -6.3
+    "lower_deviation_mkm": -6300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3466,7 +3466,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 12,
-    "upper_deviation_mkm": 0.46,
+    "upper_deviation_mkm": 460.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3477,7 +3477,7 @@
     "nominal_to": 250,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.46
+    "lower_deviation_mkm": -460.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3486,7 +3486,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 13,
-    "upper_deviation_mkm": 0.72,
+    "upper_deviation_mkm": 720.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3497,7 +3497,7 @@
     "nominal_to": 250,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.72
+    "lower_deviation_mkm": -720.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3506,7 +3506,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 14,
-    "upper_deviation_mkm": 1.15,
+    "upper_deviation_mkm": 1150.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3517,7 +3517,7 @@
     "nominal_to": 250,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.15
+    "lower_deviation_mkm": -1150.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3526,7 +3526,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 15,
-    "upper_deviation_mkm": 1.85,
+    "upper_deviation_mkm": 1850.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3537,7 +3537,7 @@
     "nominal_to": 250,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.85
+    "lower_deviation_mkm": -1850.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3546,7 +3546,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 16,
-    "upper_deviation_mkm": 2.9,
+    "upper_deviation_mkm": 2900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3557,7 +3557,7 @@
     "nominal_to": 250,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.9
+    "lower_deviation_mkm": -2900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3566,7 +3566,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 17,
-    "upper_deviation_mkm": 4.6,
+    "upper_deviation_mkm": 4600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3577,7 +3577,7 @@
     "nominal_to": 250,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4.6
+    "lower_deviation_mkm": -4600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3586,7 +3586,7 @@
     "nominal_from": 180,
     "nominal_to": 250,
     "grade": 18,
-    "upper_deviation_mkm": 7.2,
+    "upper_deviation_mkm": 7200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3597,7 +3597,7 @@
     "nominal_to": 250,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -7.2
+    "lower_deviation_mkm": -7200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3826,7 +3826,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 12,
-    "upper_deviation_mkm": 0.52,
+    "upper_deviation_mkm": 520.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3837,7 +3837,7 @@
     "nominal_to": 315,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.52
+    "lower_deviation_mkm": -520.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3846,7 +3846,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 13,
-    "upper_deviation_mkm": 0.81,
+    "upper_deviation_mkm": 810.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3857,7 +3857,7 @@
     "nominal_to": 315,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.81
+    "lower_deviation_mkm": -810.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3866,7 +3866,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 14,
-    "upper_deviation_mkm": 1.3,
+    "upper_deviation_mkm": 1300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3877,7 +3877,7 @@
     "nominal_to": 315,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.3
+    "lower_deviation_mkm": -1300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3886,7 +3886,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 15,
-    "upper_deviation_mkm": 2.1,
+    "upper_deviation_mkm": 2100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3897,7 +3897,7 @@
     "nominal_to": 315,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.1
+    "lower_deviation_mkm": -2100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3906,7 +3906,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 16,
-    "upper_deviation_mkm": 3.2,
+    "upper_deviation_mkm": 3200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3917,7 +3917,7 @@
     "nominal_to": 315,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.2
+    "lower_deviation_mkm": -3200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3926,7 +3926,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 17,
-    "upper_deviation_mkm": 5.2,
+    "upper_deviation_mkm": 5200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3937,7 +3937,7 @@
     "nominal_to": 315,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5.2
+    "lower_deviation_mkm": -5200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -3946,7 +3946,7 @@
     "nominal_from": 250,
     "nominal_to": 315,
     "grade": 18,
-    "upper_deviation_mkm": 8.1,
+    "upper_deviation_mkm": 8100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -3957,7 +3957,7 @@
     "nominal_to": 315,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -8.1
+    "lower_deviation_mkm": -8100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4186,7 +4186,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 12,
-    "upper_deviation_mkm": 0.57,
+    "upper_deviation_mkm": 570.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4197,7 +4197,7 @@
     "nominal_to": 400,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.57
+    "lower_deviation_mkm": -570.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4206,7 +4206,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 13,
-    "upper_deviation_mkm": 0.89,
+    "upper_deviation_mkm": 890.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4217,7 +4217,7 @@
     "nominal_to": 400,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.89
+    "lower_deviation_mkm": -890.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4226,7 +4226,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 14,
-    "upper_deviation_mkm": 1.4,
+    "upper_deviation_mkm": 1400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4237,7 +4237,7 @@
     "nominal_to": 400,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.4
+    "lower_deviation_mkm": -1400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4246,7 +4246,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 15,
-    "upper_deviation_mkm": 2.3,
+    "upper_deviation_mkm": 2300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4257,7 +4257,7 @@
     "nominal_to": 400,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.3
+    "lower_deviation_mkm": -2300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4266,7 +4266,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 16,
-    "upper_deviation_mkm": 3.6,
+    "upper_deviation_mkm": 3600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4277,7 +4277,7 @@
     "nominal_to": 400,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.6
+    "lower_deviation_mkm": -3600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4286,7 +4286,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 17,
-    "upper_deviation_mkm": 5.7,
+    "upper_deviation_mkm": 5700.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4297,7 +4297,7 @@
     "nominal_to": 400,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5.7
+    "lower_deviation_mkm": -5700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4306,7 +4306,7 @@
     "nominal_from": 315,
     "nominal_to": 400,
     "grade": 18,
-    "upper_deviation_mkm": 8.9,
+    "upper_deviation_mkm": 8900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4317,7 +4317,7 @@
     "nominal_to": 400,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -8.9
+    "lower_deviation_mkm": -8900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4546,7 +4546,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 12,
-    "upper_deviation_mkm": 0.63,
+    "upper_deviation_mkm": 630.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4557,7 +4557,7 @@
     "nominal_to": 500,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.63
+    "lower_deviation_mkm": -630.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4566,7 +4566,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 13,
-    "upper_deviation_mkm": 0.97,
+    "upper_deviation_mkm": 970.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4577,7 +4577,7 @@
     "nominal_to": 500,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.97
+    "lower_deviation_mkm": -970.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4586,7 +4586,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 14,
-    "upper_deviation_mkm": 1.55,
+    "upper_deviation_mkm": 1550.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4597,7 +4597,7 @@
     "nominal_to": 500,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.55
+    "lower_deviation_mkm": -1550.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4606,7 +4606,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 15,
-    "upper_deviation_mkm": 2.5,
+    "upper_deviation_mkm": 2500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4617,7 +4617,7 @@
     "nominal_to": 500,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.5
+    "lower_deviation_mkm": -2500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4626,7 +4626,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 16,
-    "upper_deviation_mkm": 4,
+    "upper_deviation_mkm": 4000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4637,7 +4637,7 @@
     "nominal_to": 500,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4
+    "lower_deviation_mkm": -4000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4646,7 +4646,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 17,
-    "upper_deviation_mkm": 6.3,
+    "upper_deviation_mkm": 6300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4657,7 +4657,7 @@
     "nominal_to": 500,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -6.3
+    "lower_deviation_mkm": -6300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4666,7 +4666,7 @@
     "nominal_from": 400,
     "nominal_to": 500,
     "grade": 18,
-    "upper_deviation_mkm": 9.7,
+    "upper_deviation_mkm": 9700.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4677,7 +4677,7 @@
     "nominal_to": 500,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -9.7
+    "lower_deviation_mkm": -9700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4886,7 +4886,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 12,
-    "upper_deviation_mkm": 0.7,
+    "upper_deviation_mkm": 700.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4897,7 +4897,7 @@
     "nominal_to": 630,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.7
+    "lower_deviation_mkm": -700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4906,7 +4906,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 13,
-    "upper_deviation_mkm": 1.1,
+    "upper_deviation_mkm": 1100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4917,7 +4917,7 @@
     "nominal_to": 630,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.1
+    "lower_deviation_mkm": -1100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4926,7 +4926,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 14,
-    "upper_deviation_mkm": 1.75,
+    "upper_deviation_mkm": 1750.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4937,7 +4937,7 @@
     "nominal_to": 630,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.75
+    "lower_deviation_mkm": -1750.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4946,7 +4946,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 15,
-    "upper_deviation_mkm": 2.8,
+    "upper_deviation_mkm": 2800.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4957,7 +4957,7 @@
     "nominal_to": 630,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.8
+    "lower_deviation_mkm": -2800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4966,7 +4966,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 16,
-    "upper_deviation_mkm": 4.4,
+    "upper_deviation_mkm": 4400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4977,7 +4977,7 @@
     "nominal_to": 630,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4.4
+    "lower_deviation_mkm": -4400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -4986,7 +4986,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 17,
-    "upper_deviation_mkm": 7,
+    "upper_deviation_mkm": 7000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -4997,7 +4997,7 @@
     "nominal_to": 630,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -7
+    "lower_deviation_mkm": -7000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5006,7 +5006,7 @@
     "nominal_from": 500,
     "nominal_to": 630,
     "grade": 18,
-    "upper_deviation_mkm": 11,
+    "upper_deviation_mkm": 11000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5017,7 +5017,7 @@
     "nominal_to": 630,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -11
+    "lower_deviation_mkm": -11000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5226,7 +5226,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 12,
-    "upper_deviation_mkm": 0.8,
+    "upper_deviation_mkm": 800.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5237,7 +5237,7 @@
     "nominal_to": 800,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.8
+    "lower_deviation_mkm": -800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5246,7 +5246,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 13,
-    "upper_deviation_mkm": 1.25,
+    "upper_deviation_mkm": 1250.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5257,7 +5257,7 @@
     "nominal_to": 800,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.25
+    "lower_deviation_mkm": -1250.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5266,7 +5266,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 14,
-    "upper_deviation_mkm": 2,
+    "upper_deviation_mkm": 2000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5277,7 +5277,7 @@
     "nominal_to": 800,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2
+    "lower_deviation_mkm": -2000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5286,7 +5286,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 15,
-    "upper_deviation_mkm": 3.2,
+    "upper_deviation_mkm": 3200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5297,7 +5297,7 @@
     "nominal_to": 800,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.2
+    "lower_deviation_mkm": -3200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5306,7 +5306,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 16,
-    "upper_deviation_mkm": 5,
+    "upper_deviation_mkm": 5000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5317,7 +5317,7 @@
     "nominal_to": 800,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5
+    "lower_deviation_mkm": -5000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5326,7 +5326,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 17,
-    "upper_deviation_mkm": 8,
+    "upper_deviation_mkm": 8000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5337,7 +5337,7 @@
     "nominal_to": 800,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -8
+    "lower_deviation_mkm": -8000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5346,7 +5346,7 @@
     "nominal_from": 630,
     "nominal_to": 800,
     "grade": 18,
-    "upper_deviation_mkm": 12.5,
+    "upper_deviation_mkm": 12500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5357,7 +5357,7 @@
     "nominal_to": 800,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -12.5
+    "lower_deviation_mkm": -12500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5566,7 +5566,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 12,
-    "upper_deviation_mkm": 0.9,
+    "upper_deviation_mkm": 900.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5577,7 +5577,7 @@
     "nominal_to": 1000,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -0.9
+    "lower_deviation_mkm": -900.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5586,7 +5586,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 13,
-    "upper_deviation_mkm": 1.4,
+    "upper_deviation_mkm": 1400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5597,7 +5597,7 @@
     "nominal_to": 1000,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.4
+    "lower_deviation_mkm": -1400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5606,7 +5606,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 14,
-    "upper_deviation_mkm": 2.3,
+    "upper_deviation_mkm": 2300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5617,7 +5617,7 @@
     "nominal_to": 1000,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.3
+    "lower_deviation_mkm": -2300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5626,7 +5626,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 15,
-    "upper_deviation_mkm": 3.6,
+    "upper_deviation_mkm": 3600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5637,7 +5637,7 @@
     "nominal_to": 1000,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.6
+    "lower_deviation_mkm": -3600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5646,7 +5646,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 16,
-    "upper_deviation_mkm": 5.6,
+    "upper_deviation_mkm": 5600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5657,7 +5657,7 @@
     "nominal_to": 1000,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5.6
+    "lower_deviation_mkm": -5600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5666,7 +5666,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 17,
-    "upper_deviation_mkm": 9,
+    "upper_deviation_mkm": 9000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5677,7 +5677,7 @@
     "nominal_to": 1000,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -9
+    "lower_deviation_mkm": -9000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5686,7 +5686,7 @@
     "nominal_from": 800,
     "nominal_to": 1000,
     "grade": 18,
-    "upper_deviation_mkm": 14,
+    "upper_deviation_mkm": 14000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5697,7 +5697,7 @@
     "nominal_to": 1000,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -14
+    "lower_deviation_mkm": -14000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5906,7 +5906,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 12,
-    "upper_deviation_mkm": 1.05,
+    "upper_deviation_mkm": 1050.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5917,7 +5917,7 @@
     "nominal_to": 1250,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.05
+    "lower_deviation_mkm": -1050.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5926,7 +5926,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 13,
-    "upper_deviation_mkm": 1.65,
+    "upper_deviation_mkm": 1650.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5937,7 +5937,7 @@
     "nominal_to": 1250,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.65
+    "lower_deviation_mkm": -1650.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5946,7 +5946,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 14,
-    "upper_deviation_mkm": 2.6,
+    "upper_deviation_mkm": 2600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5957,7 +5957,7 @@
     "nominal_to": 1250,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.6
+    "lower_deviation_mkm": -2600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5966,7 +5966,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 15,
-    "upper_deviation_mkm": 4.2,
+    "upper_deviation_mkm": 4200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5977,7 +5977,7 @@
     "nominal_to": 1250,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4.2
+    "lower_deviation_mkm": -4200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -5986,7 +5986,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 16,
-    "upper_deviation_mkm": 6.6,
+    "upper_deviation_mkm": 6600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -5997,7 +5997,7 @@
     "nominal_to": 1250,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -6.6
+    "lower_deviation_mkm": -6600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6006,7 +6006,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 17,
-    "upper_deviation_mkm": 10.5,
+    "upper_deviation_mkm": 10500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6017,7 +6017,7 @@
     "nominal_to": 1250,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -10.5
+    "lower_deviation_mkm": -10500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6026,7 +6026,7 @@
     "nominal_from": 1000,
     "nominal_to": 1250,
     "grade": 18,
-    "upper_deviation_mkm": 16.5,
+    "upper_deviation_mkm": 16500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6037,7 +6037,7 @@
     "nominal_to": 1250,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -16.5
+    "lower_deviation_mkm": -16500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6246,7 +6246,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 12,
-    "upper_deviation_mkm": 1.25,
+    "upper_deviation_mkm": 1250.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6257,7 +6257,7 @@
     "nominal_to": 1600,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.25
+    "lower_deviation_mkm": -1250.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6266,7 +6266,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 13,
-    "upper_deviation_mkm": 1.95,
+    "upper_deviation_mkm": 1950.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6277,7 +6277,7 @@
     "nominal_to": 1600,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.95
+    "lower_deviation_mkm": -1950.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6286,7 +6286,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 14,
-    "upper_deviation_mkm": 3.1,
+    "upper_deviation_mkm": 3100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6297,7 +6297,7 @@
     "nominal_to": 1600,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.1
+    "lower_deviation_mkm": -3100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6306,7 +6306,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 15,
-    "upper_deviation_mkm": 5,
+    "upper_deviation_mkm": 5000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6317,7 +6317,7 @@
     "nominal_to": 1600,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5
+    "lower_deviation_mkm": -5000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6326,7 +6326,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 16,
-    "upper_deviation_mkm": 7.8,
+    "upper_deviation_mkm": 7800.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6337,7 +6337,7 @@
     "nominal_to": 1600,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -7.8
+    "lower_deviation_mkm": -7800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6346,7 +6346,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 17,
-    "upper_deviation_mkm": 12.5,
+    "upper_deviation_mkm": 12500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6357,7 +6357,7 @@
     "nominal_to": 1600,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -12.5
+    "lower_deviation_mkm": -12500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6366,7 +6366,7 @@
     "nominal_from": 1250,
     "nominal_to": 1600,
     "grade": 18,
-    "upper_deviation_mkm": 19.5,
+    "upper_deviation_mkm": 19500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6377,7 +6377,7 @@
     "nominal_to": 1600,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -19.5
+    "lower_deviation_mkm": -19500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6586,7 +6586,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 12,
-    "upper_deviation_mkm": 1.5,
+    "upper_deviation_mkm": 1500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6597,7 +6597,7 @@
     "nominal_to": 2000,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.5
+    "lower_deviation_mkm": -1500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6606,7 +6606,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 13,
-    "upper_deviation_mkm": 2.3,
+    "upper_deviation_mkm": 2300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6617,7 +6617,7 @@
     "nominal_to": 2000,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.3
+    "lower_deviation_mkm": -2300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6626,7 +6626,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 14,
-    "upper_deviation_mkm": 3.7,
+    "upper_deviation_mkm": 3700.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6637,7 +6637,7 @@
     "nominal_to": 2000,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.7
+    "lower_deviation_mkm": -3700.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6646,7 +6646,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 15,
-    "upper_deviation_mkm": 6,
+    "upper_deviation_mkm": 6000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6657,7 +6657,7 @@
     "nominal_to": 2000,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -6
+    "lower_deviation_mkm": -6000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6666,7 +6666,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 16,
-    "upper_deviation_mkm": 9.2,
+    "upper_deviation_mkm": 9200.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6677,7 +6677,7 @@
     "nominal_to": 2000,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -9.2
+    "lower_deviation_mkm": -9200.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6686,7 +6686,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 17,
-    "upper_deviation_mkm": 15,
+    "upper_deviation_mkm": 15000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6697,7 +6697,7 @@
     "nominal_to": 2000,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -15
+    "lower_deviation_mkm": -15000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6706,7 +6706,7 @@
     "nominal_from": 1600,
     "nominal_to": 2000,
     "grade": 18,
-    "upper_deviation_mkm": 23,
+    "upper_deviation_mkm": 23000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6717,7 +6717,7 @@
     "nominal_to": 2000,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -23
+    "lower_deviation_mkm": -23000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6926,7 +6926,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 12,
-    "upper_deviation_mkm": 1.75,
+    "upper_deviation_mkm": 1750.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6937,7 +6937,7 @@
     "nominal_to": 2500,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -1.75
+    "lower_deviation_mkm": -1750.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6946,7 +6946,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 13,
-    "upper_deviation_mkm": 2.8,
+    "upper_deviation_mkm": 2800.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6957,7 +6957,7 @@
     "nominal_to": 2500,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.8
+    "lower_deviation_mkm": -2800.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6966,7 +6966,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 14,
-    "upper_deviation_mkm": 4.4,
+    "upper_deviation_mkm": 4400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6977,7 +6977,7 @@
     "nominal_to": 2500,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -4.4
+    "lower_deviation_mkm": -4400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -6986,7 +6986,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 15,
-    "upper_deviation_mkm": 7,
+    "upper_deviation_mkm": 7000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -6997,7 +6997,7 @@
     "nominal_to": 2500,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -7
+    "lower_deviation_mkm": -7000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7006,7 +7006,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 16,
-    "upper_deviation_mkm": 11,
+    "upper_deviation_mkm": 11000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7017,7 +7017,7 @@
     "nominal_to": 2500,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -11
+    "lower_deviation_mkm": -11000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7026,7 +7026,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 17,
-    "upper_deviation_mkm": 17.5,
+    "upper_deviation_mkm": 17500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7037,7 +7037,7 @@
     "nominal_to": 2500,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -17.5
+    "lower_deviation_mkm": -17500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7046,7 +7046,7 @@
     "nominal_from": 2000,
     "nominal_to": 2500,
     "grade": 18,
-    "upper_deviation_mkm": 28,
+    "upper_deviation_mkm": 28000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7057,7 +7057,7 @@
     "nominal_to": 2500,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -28
+    "lower_deviation_mkm": -28000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7266,7 +7266,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 12,
-    "upper_deviation_mkm": 2.1,
+    "upper_deviation_mkm": 2100.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7277,7 +7277,7 @@
     "nominal_to": 3150,
     "grade": 12,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -2.1
+    "lower_deviation_mkm": -2100.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7286,7 +7286,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 13,
-    "upper_deviation_mkm": 3.3,
+    "upper_deviation_mkm": 3300.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7297,7 +7297,7 @@
     "nominal_to": 3150,
     "grade": 13,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -3.3
+    "lower_deviation_mkm": -3300.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7306,7 +7306,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 14,
-    "upper_deviation_mkm": 5.4,
+    "upper_deviation_mkm": 5400.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7317,7 +7317,7 @@
     "nominal_to": 3150,
     "grade": 14,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -5.4
+    "lower_deviation_mkm": -5400.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7326,7 +7326,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 15,
-    "upper_deviation_mkm": 8.6,
+    "upper_deviation_mkm": 8600.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7337,7 +7337,7 @@
     "nominal_to": 3150,
     "grade": 15,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -8.6
+    "lower_deviation_mkm": -8600.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7346,7 +7346,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 16,
-    "upper_deviation_mkm": 13.5,
+    "upper_deviation_mkm": 13500.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7357,7 +7357,7 @@
     "nominal_to": 3150,
     "grade": 16,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -13.5
+    "lower_deviation_mkm": -13500.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7366,7 +7366,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 17,
-    "upper_deviation_mkm": 21,
+    "upper_deviation_mkm": 21000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7377,7 +7377,7 @@
     "nominal_to": 3150,
     "grade": 17,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -21
+    "lower_deviation_mkm": -21000.0
   },
   {
     "standard": "ГОСТ 25347-2013",
@@ -7386,7 +7386,7 @@
     "nominal_from": 2500,
     "nominal_to": 3150,
     "grade": 18,
-    "upper_deviation_mkm": 33,
+    "upper_deviation_mkm": 33000.0,
     "lower_deviation_mkm": 0.0
   },
   {
@@ -7397,6 +7397,6 @@
     "nominal_to": 3150,
     "grade": 18,
     "upper_deviation_mkm": 0.0,
-    "lower_deviation_mkm": -33
+    "lower_deviation_mkm": -33000.0
   }
 ]

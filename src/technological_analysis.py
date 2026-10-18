@@ -9,6 +9,34 @@ from __future__ import annotations
 from math import hypot, isfinite, sqrt
 
 
+def default_drill_diameters_mm() -> list[float]:
+    """Вернуть редактируемый ряд доступных номиналов сверл, мм.
+
+    Это стартовый каталог для подбора, а не утверждение о наличии инструмента
+    на конкретном предприятии. Диаметры можно заменить фактическим каталогом.
+    """
+    small_and_medium = [step / 10 for step in range(5, 201)]  # 0.5…20.0, шаг 0.1
+    larger = [step / 4 for step in range(81, 127)]           # 20.25…31.5, шаг 0.25
+    large = [float(step) for step in range(32, 81)]           # 32…80, шаг 1
+    return sorted(set(small_and_medium + larger + large))
+
+
+def _pick_drill_diameter(required_mm: float, candidates: list[float], *,
+                         must_not_exceed: bool) -> float:
+    values = sorted({float(value) for value in candidates if float(value) > 0})
+    if not values:
+        raise ValueError("В каталоге нет положительных диаметров сверл.")
+    if must_not_exceed:
+        admissible = [value for value in values if value <= required_mm + 1e-9]
+        if not admissible:
+            raise ValueError(
+                f"В каталоге нет сверла не больше требуемого диаметра "
+                f"{required_mm:.4f} мм."
+            )
+        return admissible[-1]
+    return min(values, key=lambda value: (abs(value - required_mm), value))
+
+
 def _nonnegative(name: str, value: float) -> float:
     value = float(value)
     if not isfinite(value) or value < 0:
@@ -121,7 +149,8 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
                               stock_defect_layer_um: float,
                               initial_spatial_deviation_um: float,
                               tolerance_data: list[dict],
-                              linear_direction: int = 1) -> dict:
+                              linear_direction: int = 1,
+                              drill_diameters_mm: list[float] | None = None) -> dict:
     """Рассчитать припуски и промежуточные номиналы маршрута обработки.
 
     Интервальные значения Rz/T берутся по верхней границе таблицы обработки.
@@ -135,6 +164,11 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
     sign = ( -1 if surface_type == "hole" else 1
              ) if category == "diametral" else (1 if linear_direction >= 0 else -1)
     kind = "rotational" if category == "diametral" else "linear"
+    starts_with_drilling_hole = (
+        category == "diametral"
+        and surface_type == "hole"
+        and operations[0].get("operation") == "Сверление"
+    )
 
     rho = _nonnegative("Начальное пространственное отклонение", initial_spatial_deviation_um)
     previous_rz = _nonnegative("Rz заготовки", stock_roughness_um)
@@ -156,7 +190,11 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
             f"Погрешность установки операции {number}",
             operation.get("setup_error_um", 0),
         )
-        zmin = minimum_allowance(
+        # Сверление первой операции в сплошной заготовке создаёт отверстие.
+        # Для него нет предшествующей цилиндрической поверхности, поэтому
+        # нельзя трактовать Ø0 как размер, от которого снимается Zmin.
+        creates_hole_from_solid = starts_with_drilling_hole and number == 1
+        zmin = None if creates_hole_from_solid else minimum_allowance(
             roughness_um=previous_rz,
             defect_layer_um=previous_defect,
             spatial_deviation_um=rho,
@@ -179,6 +217,7 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
             "setup_error_um": epsilon,
             "minimum_allowance_um": zmin,
             "grade_before": previous_grade,
+            "creates_hole_from_solid": creates_hole_from_solid,
         })
         rho *= ky
         previous_rz = float(parameters["roughness_um"])
@@ -188,7 +227,8 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
     # Идём от готовой поверхности к заготовке, назначая номиналы промежуточным
     # поверхностям до каждого перехода.
     after_nominal = float(final_nominal_mm)
-    for step in reversed(result_steps):
+    steps_to_back_calculate = result_steps[1:] if starts_with_drilling_hole else result_steps
+    for step in reversed(steps_to_back_calculate):
         before_nominal = after_nominal + sign * step["minimum_allowance_um"] / 1000.0
         for _ in range(3):
             tolerance_after = tolerance_width_um(
@@ -203,22 +243,86 @@ def calculate_operation_route(*, operations: list[dict], final_nominal_mm: float
             before_nominal = after_nominal + sign * mean_allowance / 1000.0
         step["nominal_before_mm"] = before_nominal
         step["nominal_after_mm"] = after_nominal
-        step["technological_size_mm"] = abs(after_nominal - before_nominal)
+        # Технологический размер — это размер поверхности после перехода.
+        # Разность размеров до/после перехода хранится отдельно.
+        step["technological_size_mm"] = after_nominal
+        step["size_change_mm"] = abs(after_nominal - before_nominal)
         step["mean_allowance_um"] = abs(after_nominal - before_nominal) * 1000.0
         step["tolerance_before_um"] = tolerance_before
         step["tolerance_after_um"] = tolerance_after
         step["tolerance_after_mm"] = tolerance_after / 1000.0
         after_nominal = before_nominal
 
-    result_steps.reverse()
+    drill_diameter_mm = None
+    if starts_with_drilling_hole:
+        candidates = drill_diameters_mm or default_drill_diameters_mm()
+        # При последующей обработке выбираем ближайшее сверло, которое не
+        # превышает требуемый диаметр до следующего перехода, чтобы оставить
+        # материал на его обработку. При одном сверлении подбираем ближайшее
+        # к конечному номиналу.
+        required_drill_mm = after_nominal if len(result_steps) > 1 else float(final_nominal_mm)
+        drill_diameter_mm = _pick_drill_diameter(
+            required_drill_mm, candidates,
+            must_not_exceed=len(result_steps) > 1,
+        )
+        drill_step = result_steps[0]
+        drill_output_nominal = (
+            drill_diameter_mm if len(result_steps) > 1
+            else float(final_nominal_mm)
+        )
+        drill_step.update({
+            "nominal_before_mm": 0.0,
+            # Если сверление — единственная операция, целевое значение остаётся
+            # номиналом готового отверстия; выбранный размер сверла хранится отдельно.
+            # При дальнейшей обработке диаметр сверления является промежуточным.
+            "nominal_after_mm": drill_output_nominal,
+            "technological_size_mm": drill_output_nominal,
+            "size_change_mm": None,
+            "mean_allowance_um": None,
+            "drill_diameter_mm": drill_diameter_mm,
+            # Допуск после сверления есть, хотя для сплошной заготовки
+            # допуск диаметра до перехода не определён.
+            "tolerance_after_um": tolerance_width_um(
+                drill_output_nominal, drill_step["grade"], surface_type,
+                tolerance_data,
+            ),
+        })
+        if len(result_steps) > 1:
+            next_step = result_steps[1]
+            # Реальный диаметр сверления может быть меньше расчётно требуемого;
+            # тогда первый последующий переход снимает больший припуск.
+            next_step["nominal_before_mm"] = drill_diameter_mm
+            next_step["tolerance_before_um"] = tolerance_width_um(
+                drill_diameter_mm, next_step["grade_before"], surface_type,
+                tolerance_data,
+            )
+            next_step["technological_size_mm"] = abs(
+                next_step["nominal_after_mm"]
+            )
+            next_step["size_change_mm"] = abs(
+                next_step["nominal_after_mm"] - drill_diameter_mm
+            )
+            next_step["mean_allowance_um"] = (
+                next_step["technological_size_mm"] * 1000.0
+            )
+        after_nominal = 0.0
+
     return {
         "complete": True,
         "kind": kind,
         "direction": sign,
         "final_nominal_mm": float(final_nominal_mm),
         "stock_nominal_mm": after_nominal,
+        "stock_state": "solid_no_hole" if starts_with_drilling_hole else "machined_blank",
+        "drill_diameter_mm": drill_diameter_mm,
+        "drill_diameter_catalog_mm": list(drill_diameters_mm or default_drill_diameters_mm())
+            if starts_with_drilling_hole else None,
         "steps": result_steps,
-        "intermediate_nominals_mm": [step["nominal_before_mm"] for step in result_steps],
+        "intermediate_nominals_mm": (
+            [step["nominal_after_mm"] for step in result_steps]
+            if starts_with_drilling_hole else
+            [step["nominal_before_mm"] for step in result_steps]
+        ),
     }
 
 

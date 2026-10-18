@@ -414,7 +414,10 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 f"{step['ky']:g}" if step else "—"
             ))
             table.setItem(index, 8, QtWidgets.QTableWidgetItem(
-                f"{step['minimum_allowance_um'] / 1000:.6f}" if step else "—"
+                (f"{step['minimum_allowance_um'] / 1000:.6f}"
+                 if step and step.get("minimum_allowance_um") is not None
+                 else "— (образует отверстие)" if step and step.get("creates_hole_from_solid")
+                 else "—")
             ))
             table.setItem(index, 9, QtWidgets.QTableWidgetItem(
                 f"{step['nominal_after_mm']:.6f}" if step else "—"
@@ -527,6 +530,8 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         calculation = route.get("calculation", {})
         if calculation.get("complete"):
             sequence[0]["nominal_mm"] = calculation["stock_nominal_mm"]
+            if calculation.get("stock_state") == "solid_no_hole":
+                sequence[0]["operation"] = "Сплошная заготовка — отверстия нет"
             for index, step in enumerate(calculation["steps"], start=1):
                 if index < len(sequence):
                     sequence[index]["nominal_mm"] = step["nominal_after_mm"]
@@ -540,9 +545,18 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 allowance_text = "; ".join(
                     f"Z{step['number']}min={step['minimum_allowance_um'] / 1000:.4f} мм"
                     for step in calculation["steps"]
+                    if step.get("minimum_allowance_um") is not None
                 )
+                drill_text = (
+                    f" Подобрано сверло Ø{calculation['drill_diameter_mm']:g} мм. "
+                    "Начальное состояние: сплошная заготовка, отверстия нет (Ø0)."
+                    if calculation.get("drill_diameter_mm") is not None else ""
+                )
+                if not allowance_text:
+                    allowance_text = "Для перехода сверления Zmin от Ø0 не рассчитывается"
                 self.process_status.setText(
-                    f"Рассчитано по верхним границам справочных диапазонов: {allowance_text}. "
+                    f"Рассчитано по верхним границам справочных диапазонов: {allowance_text}."
+                    f"{drill_text} "
                     "Промежуточные размеры показаны в блоках маршрута."
                 )
             else:
@@ -560,7 +574,7 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 "#d6eaf8" if stage["kind"] == "intermediate" else "#d5f5e3"
             )
             rounded_rect = QtGui.QPainterPath()
-            rounded_rect.addRoundedRect(QtCore.QRectF(x, y - 35, 170, 70), 8, 8)
+            rounded_rect.addRoundedRect(QtCore.QRectF(x, y - 35, 170, 90), 8, 8)
             scene.addPath(
                 rounded_rect,
                 QtGui.QPen(QtGui.QColor("#34495e"), 2),
@@ -571,12 +585,18 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             caption = "Заготовка" if stage["kind"] == "stock" else stage["id"]
             nominal = stage.get("nominal_mm")
             nominal_label = ""
+            if calculation.get("stock_state") == "solid_no_hole" and index == 0:
+                title = "Отверстия нет"
+                grade = "Ø0"
             if nominal is not None:
-                nominal_label = (
-                    f"\nØ{nominal:.4f} мм" if surface.get("category") == "diametral"
-                    else f"\nA={nominal:.4f} мм"
-                )
-            text = scene.addText(f"{caption}\n{title}\n{grade}{nominal_label}")
+                if calculation.get("stock_state") == "solid_no_hole" and index == 0:
+                    nominal_label = ""
+                else:
+                    nominal_label = (
+                        f"\nØ{nominal:.4f} мм" if surface.get("category") == "diametral"
+                        else f"\nA={nominal:.4f} мм"
+                    )
+            text = scene.addText(f"{caption}\n{title}\n{grade}{nominal_label}\n")
             text.setTextWidth(160)
             text.setPos(x + 5, y - 29)
             if index:
@@ -792,7 +812,8 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         view_controls = QtWidgets.QHBoxLayout()
         refresh_visualization = QtWidgets.QPushButton("Обновить визуализацию")
         refresh_visualization.clicked.connect(
-            lambda _checked=False, key=chain_key: self._refresh_chain(key)
+            lambda _checked=False, key=chain_key:
+                self._refresh_chain_visualization(key)
         )
         view_controls.addWidget(refresh_visualization)
         fit_visualization = QtWidgets.QPushButton("Показать всю схему")
@@ -1019,26 +1040,55 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             if source_surface.get("category") != chain_key:
                 continue
             route = self.processing_routes.get(source_key, {})
-            calculation = route.get("calculation", {})
+            route = self.processing_routes.get(source_key, {})
+            route["calculation"] = self._calculate_route_for_surface(
+                source_surface, route
+            )
+            calculation = route["calculation"]
             if not calculation.get("complete"):
                 continue
             count = int(route.get("operation_count", 0))
             process_surface_ids = generated_ids.get(source_key, {})
             target_id = source_surface.get("chain_id")
+            base_id = process_surface_ids.get(1)
             for number, step in enumerate(calculation.get("steps", []), start=1):
-                start_id = process_surface_ids.get(number)
-                end_id = process_surface_ids.get(number + 1, target_id)
-                if not start_id or not end_id:
+                before_id = process_surface_ids.get(number)
+                after_id = process_surface_ids.get(number + 1, target_id)
+
+                if not before_id or not after_id:
                     continue
-                tol = (step["tolerance_before_um"] + step["tolerance_after_um"]) / 2000.0
+
+                # Для диаметральной цепи все технологические размеры
+                # отсчитываются от общей поверхности.
+                technology_start_id = (
+                    base_id if chain_key == "diametral" else before_id
+                )
+                technology_end_id = after_id
+
+                # Припуск соединяет соседние поверхности процесса.
+                allowance_start_id = before_id
+                allowance_end_id = after_id
+
+                if not technology_start_id:
+                    continue
+                tolerance_before = step.get("tolerance_before_um")
+                tolerance_after = step.get("tolerance_after_um") or 0.0
+                tol_mm = tolerance_after / 1000.0
+
+                if source_surface.get("surface_type") == "hole":
+                    upper_deviation_mm = tol_mm
+                    lower_deviation_mm = 0.0
+                else:
+                    upper_deviation_mm = 0.0
+                    lower_deviation_mm = -tol_mm
                 self._add_link(chain_key, {
                     "label": f"T{number}-{target_id}",
                     "type": "Технологический размер",
-                    "start": start_id,
-                    "end": end_id,
+                    "start": technology_start_id,
+                    "end": technology_end_id,
                     "nominal_mm": step["technological_size_mm"],
-                    "upper_deviation_mm": tol,
-                    "lower_deviation_mm": -tol,
+                    "upper_deviation_mm": upper_deviation_mm,
+                    "lower_deviation_mm": lower_deviation_mm,
                     "process_meta": {
                         "route_generated_link": True,
                         "parent_source_key": source_key,
@@ -1046,21 +1096,24 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                         "link_kind": "technology",
                     },
                 })
-                self._add_link(chain_key, {
-                    "label": f"Z{number}-{target_id}",
-                    "type": "Припуск",
-                    "start": start_id,
-                    "end": end_id,
-                    "nominal_mm": step["minimum_allowance_um"] / 1000.0,
-                    "upper_deviation_mm": 0.0,
-                    "lower_deviation_mm": 0.0,
-                    "process_meta": {
-                        "route_generated_link": True,
-                        "parent_source_key": source_key,
-                        "operation_number": number,
-                        "link_kind": "allowance",
-                    },
-                })
+                # У сверления из сплошного материала нет Zmin от отверстия Ø0,
+                # но технологическое значение после сверления показываем.
+                if step.get("minimum_allowance_um") is not None:
+                    self._add_link(chain_key, {
+                        "label": f"Z{number}-{target_id}",
+                        "type": "Припуск",
+                        "start": allowance_start_id,
+                        "end": allowance_end_id,
+                        "nominal_mm": step["minimum_allowance_um"] / 1000.0,
+                        "upper_deviation_mm": 0.0,
+                        "lower_deviation_mm": 0.0,
+                        "process_meta": {
+                            "route_generated_link": True,
+                            "parent_source_key": source_key,
+                            "operation_number": number,
+                            "link_kind": "allowance",
+                        },
+                    })
 
     def _add_link(self, chain_key, link=None):
         link = link or {}
@@ -1090,7 +1143,11 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 if link.get(key) in ids:
                     combo.setCurrentText(link[key])
                 links_table.setCellWidget(row, column, combo)
-            nominal = self._float_box(float(link.get("nominal_mm", 0)), 1_000_000)
+            nominal_value = link.get("nominal_mm")
+            nominal = self._float_box(
+                float(nominal_value) if nominal_value is not None else 0.0,
+                1_000_000,
+            )
             links_table.setCellWidget(row, 4, nominal)
             legacy_tolerance = float(link.get("tolerance_mm", 0))
             upper = self._signed_float_box(
@@ -1164,7 +1221,8 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
         ]
         lane_step = 62
         y0 = max(230, 105 + lane_step * len(valid_links))
-        x0, gap = 50, 130
+        x0, gap = 50, 210
+        description_width = gap - 20
         node_positions = {value: (x0 + i * gap, y0) for i, value in enumerate(ids)}
         pen_node = QtGui.QPen(QtGui.QColor("#20354a"), 2)
         for surface in surfaces:
@@ -1178,7 +1236,8 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
             label.setPos(x - label.boundingRect().width() / 2, y - 10)
             if surface["description"]:
                 desc = scene.addText(surface["description"])
-                desc.setPos(x - 50, y + 26)
+                desc.setTextWidth(description_width)
+                desc.setPos(x - description_width / 2, y + 26)
         colors = {
             "Технологический размер": "#2471a3",
             "Конструкторский размер": "#8e44ad",
@@ -1255,6 +1314,12 @@ class TechnologicalAnalysisWindow(QtWidgets.QMainWindow):
                 else "структура дерева корректна."
             ))
         )
+
+    def _refresh_chain_visualization(self, chain_key):
+        """Пересчитать авто-связи и перерисовать выбранную размерную цепь."""
+        self._write_current_processing_route()
+        self._sync_operation_surfaces()
+        self._refresh_chain(chain_key)
 
     def _save_data(self):
         self._write_current_processing_route()

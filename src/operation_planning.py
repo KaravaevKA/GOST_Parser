@@ -181,8 +181,12 @@ def build_operation_surfaces(surface: dict, route: dict) -> list[dict]:
                 "grade": grade,
                 "nominal_mm": calculated_steps[number - 1]["nominal_before_mm"]
                     if calculated_steps else None,
-                "tolerance_after_mm": calculated_steps[number - 1]["tolerance_before_um"] / 1000.0
-                    if calculated_steps else None,
+                "tolerance_after_mm": (
+                    calculated_steps[number - 1].get("tolerance_before_um") / 1000.0
+                    if calculated_steps
+                    and calculated_steps[number - 1].get("tolerance_before_um") is not None
+                    else None
+                ),
             },
         })
     return generated
